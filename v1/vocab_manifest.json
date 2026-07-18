@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": 3,
+  "version": 4,
   "updated": "2026-07-18",
   "courses": [
     {
@@ -3795,6 +3795,75 @@
           "example": "Pour ce projet, toute l'équipe est au taquet."
         }
       ]
+    },
+    {
+      "id": "klingon_test",
+      "name": "Klingon (test)",
+      "nameEs": "Klingon (prueba)",
+      "tagline": "Temporary end-to-end test of dynamic navigation",
+      "taglineEs": "Prueba temporal de navegacion dinamica",
+      "icon": "Q",
+      "speakLocale": "en-US",
+      "layout": "reversed",
+      "secondaryKind": "idioms",
+      "letters": [
+        {
+          "glyph": "gh",
+          "name": "Ghah",
+          "sound": "gh",
+          "mnemonic": "A guttural growl.",
+          "emoji": "🐺",
+          "finalForm": null
+        },
+        {
+          "glyph": "Q",
+          "name": "Qu'",
+          "sound": "q",
+          "mnemonic": "Sharp and proud, like a warrior.",
+          "emoji": "⚔️",
+          "finalForm": null
+        }
+      ],
+      "words": [
+        {
+          "hebrew": "a warrior's greeting",
+          "translit": "",
+          "english": "Qapla'",
+          "emoji": "🖖",
+          "category": "Live Test",
+          "gloss": "success!",
+          "example": "Qapla', my friend!"
+        },
+        {
+          "hebrew": "a Klingon warship",
+          "translit": "",
+          "english": "Bird of Prey",
+          "emoji": "🚀",
+          "category": "Live Test",
+          "gloss": "warship",
+          "example": "The Bird of Prey decloaked."
+        },
+        {
+          "hebrew": "the Klingon home planet",
+          "translit": "",
+          "english": "Qo'noS",
+          "emoji": "🪐",
+          "category": "Live Test",
+          "gloss": "homeworld",
+          "example": "We return to Qo'noS."
+        }
+      ],
+      "idioms": [
+        {
+          "hebrew": "today is a good day to fight",
+          "translit": "",
+          "english": "Heghlu'meH QaQ jajvam",
+          "emoji": "⚔️",
+          "category": "Live Test",
+          "gloss": "today is a good day to die",
+          "example": "Heghlu'meH QaQ jajvam!"
+        }
+      ]
     }
   ],
   "categories": [
@@ -4102,6 +4171,11 @@
       "key": "Adverbs & Nuance",
       "emoji": "🧭",
       "label": "Adverbs & Nuance"
+    },
+    {
+      "key": "Live Test",
+      "emoji": "🧪",
+      "label": "Live Test"
     }
   ]
 }
