@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 3,
   "updated": "2026-07-18",
   "courses": [
     {
       "id": "hebrew",
+      "name": "Hebrew",
+      "nameEs": "Hebreo",
+      "tagline": "From your very first alef — letters, words & street slang",
+      "taglineEs": "Desde tu primera álef — letras, palabras y jerga callejera",
+      "icon": "א",
+      "speakLocale": "he-IL",
+      "layout": "direct",
+      "secondaryKind": "expressions",
       "letters": [
         {
           "glyph": "א",
@@ -2752,6 +2760,14 @@
     },
     {
       "id": "english",
+      "name": "English",
+      "nameEs": "Inglés",
+      "tagline": "5,600 words and idioms — from everyday to advanced English",
+      "taglineEs": "5.600 palabras y modismos — del inglés cotidiano al avanzado",
+      "icon": "Aa",
+      "speakLocale": "en-GB",
+      "layout": "reversed",
+      "secondaryKind": "idioms",
       "words": [
         {
           "hebrew": "the money you're paid each month for your job",
@@ -3263,6 +3279,14 @@
     },
     {
       "id": "french",
+      "name": "French",
+      "nameEs": "Francés",
+      "tagline": "Already conversational? Enrich your vocabulary — B2-C1",
+      "taglineEs": "¿Ya conversas? Enriquece tu vocabulario — B2-C1",
+      "icon": "Ç",
+      "speakLocale": "fr-FR",
+      "layout": "reversed",
+      "secondaryKind": "idioms",
       "words": [
         {
           "hebrew": "qui parle avec aisance et convainc",

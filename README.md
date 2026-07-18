@@ -6,6 +6,10 @@ The app fetches `v1/vocab_manifest.json` at startup (with an on-device cache and
 fallback baked into the APK, so it always works offline). Editing this file and pushing to
 `main` updates the app's content for everyone — **no app release or store update required**.
 
+This includes adding a **brand-new course/language**: give it valid `courseMeta` fields (see
+below) and at least one non-empty `words` list, and it appears in the course picker and gets
+working Quiz/Match/Cards/Letters screens automatically — no app code changes needed.
+
 ## Schema
 
 ```jsonc
@@ -16,23 +20,42 @@ fallback baked into the APK, so it always works offline). Editing this file and 
   "courses": [
     {
       "id": "hebrew",              // stable course id the app looks up by
+
+      // Course metadata. Required only for courses beyond the app's three built-in ones
+      // (hebrew/english/french already have their own hand-tuned screens and ignore this) —
+      // but every course below carries it anyway so it's a template to copy for a new one.
+      "name": "Hebrew",            // English display name (course picker + home screen)
+      "nameEs": "Hebreo",          // Spanish display name (app supports en/es interface locales)
+      "tagline": "From your very first alef — letters, words & street slang",
+      "taglineEs": "Desde tu primera álef — letras, palabras y jerga callejera",
+      "icon": "א",                 // short glyph/text shown as the course "mascot" (not necessarily an emoji)
+      "speakLocale": "he-IL",      // BCP-47 tag used for TTS and for the quiz's spoken prompt
+      "layout": "direct",          // "direct" (see below) | "reversed"
+      "secondaryKind": "expressions", // "expressions" | "idioms" | omit for none
+
       "letters": [ { "glyph": "א", "name": "Alef", "sound": "...", "mnemonic": "...", "emoji": "🥷", "finalForm": null } ],
       "words": [ { "hebrew": "שָׁלוֹם", "translit": "shalom", "english": "hello / peace", "emoji": "🕊️", "category": "Greetings" } ],
       "expressions": [ /* same shape as words */ ]
     },
     {
       "id": "english",
+      "name": "English", "nameEs": "Inglés",
+      "tagline": "5,600 words and idioms — from everyday to advanced English",
+      "taglineEs": "5.600 palabras y modismos — del inglés cotidiano al avanzado",
+      "icon": "Aa", "speakLocale": "en-GB", "layout": "reversed", "secondaryKind": "idioms",
       "words": [ { "hebrew": "definition text", "translit": "", "english": "target word", "emoji": "💵", "category": "Work & Money", "gloss": "short hint", "example": "example sentence" } ],
       "idioms": [ /* same shape */ ]
     },
     {
       "id": "french",
+      "name": "French", "nameEs": "Francés",
+      "tagline": "Already conversational? Enrich your vocabulary — B2-C1",
+      "taglineEs": "¿Ya conversas? Enriquece tu vocabulario — B2-C1",
+      "icon": "Ç", "speakLocale": "fr-FR", "layout": "reversed", "secondaryKind": "idioms",
       "words": [ /* ... */ ],
       "idioms": [ /* ... */ ]
     }
-    // Additional course objects (new languages) can be added here. The app's data layer
-    // parses every course entry generically; wiring a brand-new course id into the app's
-    // navigation/UI is a separate, app-side step (not just a content edit).
+    // Additional course objects (new languages) go here — see "Adding a new course" below.
   ],
   "categories": [
     { "key": "Greetings", "emoji": "👋", "label": "Greetings" }
@@ -41,6 +64,28 @@ fallback baked into the APK, so it always works offline). Editing this file and 
   ]
 }
 ```
+
+### `layout`: `direct` vs `reversed`
+
+- **`direct`** (Hebrew): `hebrew` is the word being learned, spoken in `speakLocale`;
+  `english` is its meaning. Quiz prompts with the word, answers are meanings.
+- **`reversed`** (English/French-style enrichment courses, for learners who already know the
+  basics): `english` actually holds the **target word/idiom**, `hebrew` holds its **definition**
+  in plain language, `gloss` is a short hint, `example` is a usage sentence. Quiz prompts with
+  the definition, answers are the target words. Use this for any course teaching vocabulary
+  *through* definitions rather than direct translation.
+
+### Adding a new course
+
+1. Pick a stable `id` (lowercase, e.g. `"spanish"`) that isn't `hebrew`/`english`/`french`.
+2. Fill in all of `name`, `nameEs`, `tagline`, `taglineEs`, `icon`, `speakLocale`, `layout` —
+   a course missing any of these is silently skipped rather than shown broken.
+3. Add a `words` list (required — a course with no words never appears) and optionally
+   `expressions`/`idioms` (matching `secondaryKind`) and `letters`.
+4. Bump `version`, validate the JSON, push.
+
+The course then gets, automatically: a course-picker card, a home screen with XP/streak,
+Quiz, Match, and (if `layout: "reversed"`) a flashcards screen — all driven by this file.
 
 ## Guidelines
 
