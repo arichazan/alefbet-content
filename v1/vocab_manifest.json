@@ -1,0 +1,4083 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "updated": "2026-07-18",
+  "courses": [
+    {
+      "id": "hebrew",
+      "letters": [
+        {
+          "glyph": "א",
+          "name": "Alef",
+          "sound": "(silent)",
+          "mnemonic": "A silent ninja — you see it, you never hear it!",
+          "emoji": "🥷",
+          "finalForm": null
+        },
+        {
+          "glyph": "ב",
+          "name": "Bet",
+          "sound": "b / v",
+          "mnemonic": "Bet looks like a house with an open door — 'bayit' means house!",
+          "emoji": "🏠",
+          "finalForm": null
+        },
+        {
+          "glyph": "ג",
+          "name": "Gimel",
+          "sound": "g",
+          "mnemonic": "Gimel is a giraffe galloping on one long leg.",
+          "emoji": "🦒",
+          "finalForm": null
+        },
+        {
+          "glyph": "ד",
+          "name": "Dalet",
+          "sound": "d",
+          "mnemonic": "Dalet is a door frame — 'delet' means door!",
+          "emoji": "🚪",
+          "finalForm": null
+        },
+        {
+          "glyph": "ה",
+          "name": "Hey",
+          "sound": "h",
+          "mnemonic": "Hey! It's waving at you with a little gap to breathe through.",
+          "emoji": "👋",
+          "finalForm": null
+        },
+        {
+          "glyph": "ו",
+          "name": "Vav",
+          "sound": "v",
+          "mnemonic": "Vav is a hook — the skinniest letter in the club.",
+          "emoji": "🪝",
+          "finalForm": null
+        },
+        {
+          "glyph": "ז",
+          "name": "Zayin",
+          "sound": "z",
+          "mnemonic": "Zayin is a sword — zzzing!",
+          "emoji": "⚔️",
+          "finalForm": null
+        },
+        {
+          "glyph": "ח",
+          "name": "Chet",
+          "sound": "ch (throaty)",
+          "mnemonic": "Chet is the sound of clearing your throat. Practice politely!",
+          "emoji": "😤",
+          "finalForm": null
+        },
+        {
+          "glyph": "ט",
+          "name": "Tet",
+          "sound": "t",
+          "mnemonic": "Tet curls up like a snake in a basket.",
+          "emoji": "🐍",
+          "finalForm": null
+        },
+        {
+          "glyph": "י",
+          "name": "Yod",
+          "sound": "y",
+          "mnemonic": "Yod is tiny but mighty — the smallest letter of all!",
+          "emoji": "🐜",
+          "finalForm": null
+        },
+        {
+          "glyph": "כ",
+          "name": "Kaf",
+          "sound": "k / ch",
+          "mnemonic": "Kaf is the palm of your hand, curved and ready to catch.",
+          "emoji": "🤲",
+          "finalForm": "ך"
+        },
+        {
+          "glyph": "ל",
+          "name": "Lamed",
+          "sound": "l",
+          "mnemonic": "Lamed is the tallest letter — a lighthouse above the line!",
+          "emoji": "🗼",
+          "finalForm": null
+        },
+        {
+          "glyph": "מ",
+          "name": "Mem",
+          "sound": "m",
+          "mnemonic": "Mem ripples like a wave — 'mayim' means water!",
+          "emoji": "🌊",
+          "finalForm": "ם"
+        },
+        {
+          "glyph": "נ",
+          "name": "Nun",
+          "sound": "n",
+          "mnemonic": "Nun is a little fish swimming down the line.",
+          "emoji": "🐟",
+          "finalForm": "ן"
+        },
+        {
+          "glyph": "ס",
+          "name": "Samech",
+          "sound": "s",
+          "mnemonic": "Samech is a circle of support — it has your back all around.",
+          "emoji": "⭕",
+          "finalForm": null
+        },
+        {
+          "glyph": "ע",
+          "name": "Ayin",
+          "sound": "(deep, silent-ish)",
+          "mnemonic": "Ayin means 'eye' — it watches silently from the back of your throat.",
+          "emoji": "👁️",
+          "finalForm": null
+        },
+        {
+          "glyph": "פ",
+          "name": "Pey",
+          "sound": "p / f",
+          "mnemonic": "Pey is a mouth mid-sentence — 'peh' means mouth!",
+          "emoji": "👄",
+          "finalForm": "ף"
+        },
+        {
+          "glyph": "צ",
+          "name": "Tsadi",
+          "sound": "ts",
+          "mnemonic": "Tsadi buzzes like 'pizza' — tsss!",
+          "emoji": "🍕",
+          "finalForm": "ץ"
+        },
+        {
+          "glyph": "ק",
+          "name": "Kof",
+          "sound": "k",
+          "mnemonic": "Kof is a monkey with its tail hanging below the line.",
+          "emoji": "🐒",
+          "finalForm": null
+        },
+        {
+          "glyph": "ר",
+          "name": "Resh",
+          "sound": "r",
+          "mnemonic": "Resh is a head in profile — 'rosh' means head!",
+          "emoji": "🗿",
+          "finalForm": null
+        },
+        {
+          "glyph": "ש",
+          "name": "Shin",
+          "sound": "sh / s",
+          "mnemonic": "Shin has three flames — shhh, the fire is sleeping.",
+          "emoji": "🔥",
+          "finalForm": null
+        },
+        {
+          "glyph": "ת",
+          "name": "Tav",
+          "sound": "t",
+          "mnemonic": "Tav is the grand finale — last letter, big foot, takes a bow!",
+          "emoji": "🎭",
+          "finalForm": null
+        }
+      ],
+      "words": [
+        {
+          "hebrew": "שָׁלוֹם",
+          "translit": "shalom",
+          "english": "hello / peace",
+          "emoji": "🕊️",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "תּוֹדָה",
+          "translit": "toda",
+          "english": "thank you",
+          "emoji": "🙏",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "בְּבַקָּשָׁה",
+          "translit": "bevakasha",
+          "english": "please",
+          "emoji": "🤝",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "בּוֹקֶר טוֹב",
+          "translit": "boker tov",
+          "english": "good morning",
+          "emoji": "🌅",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "לַיְלָה טוֹב",
+          "translit": "layla tov",
+          "english": "good night",
+          "emoji": "🌙",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "לְהִתְרָאוֹת",
+          "translit": "lehitraot",
+          "english": "see you later",
+          "emoji": "👋",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "כֵּן",
+          "translit": "ken",
+          "english": "yes",
+          "emoji": "✅",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "לֹא",
+          "translit": "lo",
+          "english": "no",
+          "emoji": "❌",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "עֶרֶב טוֹב",
+          "translit": "erev tov",
+          "english": "good evening",
+          "emoji": "🌆",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "צָהֳרַיִם טוֹבִים",
+          "translit": "tzohorayim tovim",
+          "english": "good afternoon",
+          "emoji": "☀️",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "מַה שְׁלוֹמְךָ?",
+          "translit": "ma shlomcha?",
+          "english": "how are you? (to a man)",
+          "emoji": "🙂",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "מַה שְׁלוֹמֵךְ?",
+          "translit": "ma shlomech?",
+          "english": "how are you? (to a woman)",
+          "emoji": "🙂",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "בְּסֵדֶר",
+          "translit": "beseder",
+          "english": "okay / fine",
+          "emoji": "👌",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "בְּרוּכִים הַבָּאִים",
+          "translit": "bruchim habaim",
+          "english": "welcome",
+          "emoji": "🎉",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "שַׁבָּת שָׁלוֹם",
+          "translit": "shabbat shalom",
+          "english": "peaceful Sabbath",
+          "emoji": "🕯️",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "אֵין בְּעַד מָה",
+          "translit": "ein be'ad ma",
+          "english": "you're welcome",
+          "emoji": "🙌",
+          "category": "Greetings"
+        },
+        {
+          "hebrew": "לֶחֶם",
+          "translit": "lechem",
+          "english": "bread",
+          "emoji": "🍞",
+          "category": "Food"
+        },
+        {
+          "hebrew": "מַיִם",
+          "translit": "mayim",
+          "english": "water",
+          "emoji": "💧",
+          "category": "Food"
+        },
+        {
+          "hebrew": "תַּפּוּחַ",
+          "translit": "tapuach",
+          "english": "apple",
+          "emoji": "🍎",
+          "category": "Food"
+        },
+        {
+          "hebrew": "גְּלִידָה",
+          "translit": "glida",
+          "english": "ice cream",
+          "emoji": "🍦",
+          "category": "Food"
+        },
+        {
+          "hebrew": "עוּגָה",
+          "translit": "uga",
+          "english": "cake",
+          "emoji": "🎂",
+          "category": "Food"
+        },
+        {
+          "hebrew": "קָפֶה",
+          "translit": "kafe",
+          "english": "coffee",
+          "emoji": "☕",
+          "category": "Food"
+        },
+        {
+          "hebrew": "פִּיצָה",
+          "translit": "pitsa",
+          "english": "pizza",
+          "emoji": "🍕",
+          "category": "Food"
+        },
+        {
+          "hebrew": "בֵּיצָה",
+          "translit": "beytsa",
+          "english": "egg",
+          "emoji": "🥚",
+          "category": "Food"
+        },
+        {
+          "hebrew": "בָּשָׂר",
+          "translit": "basar",
+          "english": "meat",
+          "emoji": "🥩",
+          "category": "Food"
+        },
+        {
+          "hebrew": "עוֹף",
+          "translit": "of",
+          "english": "chicken",
+          "emoji": "🍗",
+          "category": "Food"
+        },
+        {
+          "hebrew": "אֹרֶז",
+          "translit": "orez",
+          "english": "rice",
+          "emoji": "🍚",
+          "category": "Food"
+        },
+        {
+          "hebrew": "סָלָט",
+          "translit": "salat",
+          "english": "salad",
+          "emoji": "🥗",
+          "category": "Food"
+        },
+        {
+          "hebrew": "יֶרֶק",
+          "translit": "yerek",
+          "english": "vegetable",
+          "emoji": "🥦",
+          "category": "Food"
+        },
+        {
+          "hebrew": "פְּרִי",
+          "translit": "pri",
+          "english": "fruit",
+          "emoji": "🍇",
+          "category": "Food"
+        },
+        {
+          "hebrew": "חָלָב",
+          "translit": "chalav",
+          "english": "milk",
+          "emoji": "🥛",
+          "category": "Food"
+        },
+        {
+          "hebrew": "גְּבִינָה",
+          "translit": "gvina",
+          "english": "cheese",
+          "emoji": "🧀",
+          "category": "Food"
+        },
+        {
+          "hebrew": "שׁוֹקוֹלָד",
+          "translit": "shokolad",
+          "english": "chocolate",
+          "emoji": "🍫",
+          "category": "Food"
+        },
+        {
+          "hebrew": "מָרָק",
+          "translit": "marak",
+          "english": "soup",
+          "emoji": "🍲",
+          "category": "Food"
+        },
+        {
+          "hebrew": "תַּפּוּז",
+          "translit": "tapuz",
+          "english": "orange",
+          "emoji": "🍊",
+          "category": "Food"
+        },
+        {
+          "hebrew": "בָּנָנָה",
+          "translit": "banana",
+          "english": "banana",
+          "emoji": "🍌",
+          "category": "Food"
+        },
+        {
+          "hebrew": "כֶּלֶב",
+          "translit": "kelev",
+          "english": "dog",
+          "emoji": "🐶",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "חָתוּל",
+          "translit": "chatul",
+          "english": "cat",
+          "emoji": "🐱",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "דָּג",
+          "translit": "dag",
+          "english": "fish",
+          "emoji": "🐟",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "צִפּוֹר",
+          "translit": "tsipor",
+          "english": "bird",
+          "emoji": "🐦",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "סוּס",
+          "translit": "sus",
+          "english": "horse",
+          "emoji": "🐴",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "קוֹף",
+          "translit": "kof",
+          "english": "monkey",
+          "emoji": "🐒",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "פִּיל",
+          "translit": "pil",
+          "english": "elephant",
+          "emoji": "🐘",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "גָּמָל",
+          "translit": "gamal",
+          "english": "camel",
+          "emoji": "🐪",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "אַרְיֵה",
+          "translit": "arye",
+          "english": "lion",
+          "emoji": "🦁",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "דֹּב",
+          "translit": "dov",
+          "english": "bear",
+          "emoji": "🐻",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "זְאֵב",
+          "translit": "ze'ev",
+          "english": "wolf",
+          "emoji": "🐺",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "נָמֵר",
+          "translit": "namer",
+          "english": "tiger",
+          "emoji": "🐯",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "אַרְנָב",
+          "translit": "arnav",
+          "english": "rabbit",
+          "emoji": "🐰",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "עַכְבָּר",
+          "translit": "achbar",
+          "english": "mouse",
+          "emoji": "🐭",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "פָּרָה",
+          "translit": "para",
+          "english": "cow",
+          "emoji": "🐄",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "כֶּבֶשׂ",
+          "translit": "keves",
+          "english": "sheep",
+          "emoji": "🐑",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "תַּרְנְגוֹל",
+          "translit": "tarnegol",
+          "english": "rooster",
+          "emoji": "🐓",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "נָחָשׁ",
+          "translit": "nachash",
+          "english": "snake",
+          "emoji": "🐍",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "צְפַרְדֵּעַ",
+          "translit": "tsfarde'a",
+          "english": "frog",
+          "emoji": "🐸",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "דְּבוֹרָה",
+          "translit": "dvora",
+          "english": "bee",
+          "emoji": "🐝",
+          "category": "Animals"
+        },
+        {
+          "hebrew": "אֶחָד",
+          "translit": "echad",
+          "english": "one",
+          "emoji": "1️⃣",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "שְׁתַּיִם",
+          "translit": "shtayim",
+          "english": "two",
+          "emoji": "2️⃣",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "שָׁלוֹשׁ",
+          "translit": "shalosh",
+          "english": "three",
+          "emoji": "3️⃣",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "אַרְבַּע",
+          "translit": "arba",
+          "english": "four",
+          "emoji": "4️⃣",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "חָמֵשׁ",
+          "translit": "chamesh",
+          "english": "five",
+          "emoji": "5️⃣",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "שֵׁשׁ",
+          "translit": "shesh",
+          "english": "six",
+          "emoji": "6️⃣",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "שֶׁבַע",
+          "translit": "sheva",
+          "english": "seven",
+          "emoji": "7️⃣",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "עֶשֶׂר",
+          "translit": "eser",
+          "english": "ten",
+          "emoji": "🔟",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "שְׁמֹנֶה",
+          "translit": "shmone",
+          "english": "eight",
+          "emoji": "8️⃣",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "תֵּשַׁע",
+          "translit": "tesha",
+          "english": "nine",
+          "emoji": "9️⃣",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "אַחַד עָשָׂר",
+          "translit": "achad asar",
+          "english": "eleven",
+          "emoji": "🔢",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "שְׁנֵים עָשָׂר",
+          "translit": "shneym asar",
+          "english": "twelve",
+          "emoji": "🔢",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "שְׁלוֹשָׁה עָשָׂר",
+          "translit": "shlosha asar",
+          "english": "thirteen",
+          "emoji": "🔢",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "אַרְבָּעָה עָשָׂר",
+          "translit": "arba'a asar",
+          "english": "fourteen",
+          "emoji": "🔢",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "חֲמִשָּׁה עָשָׂר",
+          "translit": "chamisha asar",
+          "english": "fifteen",
+          "emoji": "🔢",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "עֶשְׂרִים",
+          "translit": "esrim",
+          "english": "twenty",
+          "emoji": "🔢",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "שְׁלוֹשִׁים",
+          "translit": "shloshim",
+          "english": "thirty",
+          "emoji": "🔢",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "אַרְבָּעִים",
+          "translit": "arba'im",
+          "english": "forty",
+          "emoji": "🔢",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "חֲמִישִּׁים",
+          "translit": "chamishim",
+          "english": "fifty",
+          "emoji": "🔢",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "מֵאָה",
+          "translit": "me'a",
+          "english": "one hundred",
+          "emoji": "💯",
+          "category": "Numbers"
+        },
+        {
+          "hebrew": "אִמָּא",
+          "translit": "ima",
+          "english": "mom",
+          "emoji": "👩",
+          "category": "Family"
+        },
+        {
+          "hebrew": "אַבָּא",
+          "translit": "aba",
+          "english": "dad",
+          "emoji": "👨",
+          "category": "Family"
+        },
+        {
+          "hebrew": "אָח",
+          "translit": "ach",
+          "english": "brother",
+          "emoji": "👦",
+          "category": "Family"
+        },
+        {
+          "hebrew": "אָחוֹת",
+          "translit": "achot",
+          "english": "sister",
+          "emoji": "👧",
+          "category": "Family"
+        },
+        {
+          "hebrew": "סַבָּא",
+          "translit": "saba",
+          "english": "grandpa",
+          "emoji": "👴",
+          "category": "Family"
+        },
+        {
+          "hebrew": "סַבְתָּא",
+          "translit": "savta",
+          "english": "grandma",
+          "emoji": "👵",
+          "category": "Family"
+        },
+        {
+          "hebrew": "מִשְׁפָּחָה",
+          "translit": "mishpacha",
+          "english": "family",
+          "emoji": "👨‍👩‍👧‍👦",
+          "category": "Family"
+        },
+        {
+          "hebrew": "חָבֵר",
+          "translit": "chaver",
+          "english": "friend",
+          "emoji": "🧑‍🤝‍🧑",
+          "category": "Family"
+        },
+        {
+          "hebrew": "בֵּן",
+          "translit": "ben",
+          "english": "son",
+          "emoji": "👦",
+          "category": "Family"
+        },
+        {
+          "hebrew": "בַּת",
+          "translit": "bat",
+          "english": "daughter",
+          "emoji": "👧",
+          "category": "Family"
+        },
+        {
+          "hebrew": "דּוֹד",
+          "translit": "dod",
+          "english": "uncle",
+          "emoji": "👨",
+          "category": "Family"
+        },
+        {
+          "hebrew": "דּוֹדָה",
+          "translit": "doda",
+          "english": "aunt",
+          "emoji": "👩",
+          "category": "Family"
+        },
+        {
+          "hebrew": "בֶּן דּוֹד",
+          "translit": "ben dod",
+          "english": "cousin (male)",
+          "emoji": "🧑",
+          "category": "Family"
+        },
+        {
+          "hebrew": "בַּת דּוֹד",
+          "translit": "bat dod",
+          "english": "cousin (female)",
+          "emoji": "🧑",
+          "category": "Family"
+        },
+        {
+          "hebrew": "בַּעַל",
+          "translit": "ba'al",
+          "english": "husband",
+          "emoji": "🤵",
+          "category": "Family"
+        },
+        {
+          "hebrew": "אִשָּׁה",
+          "translit": "isha",
+          "english": "wife",
+          "emoji": "👰",
+          "category": "Family"
+        },
+        {
+          "hebrew": "אָדֹם",
+          "translit": "adom",
+          "english": "red",
+          "emoji": "🔴",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "כָּחֹל",
+          "translit": "kachol",
+          "english": "blue",
+          "emoji": "🔵",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "צָהֹב",
+          "translit": "tsahov",
+          "english": "yellow",
+          "emoji": "🟡",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "יָרֹק",
+          "translit": "yarok",
+          "english": "green",
+          "emoji": "🟢",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "כָּתֹם",
+          "translit": "katom",
+          "english": "orange",
+          "emoji": "🟠",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "סָגֹל",
+          "translit": "sagol",
+          "english": "purple",
+          "emoji": "🟣",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "וָרֹד",
+          "translit": "varod",
+          "english": "pink",
+          "emoji": "🌸",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "לָבָן",
+          "translit": "lavan",
+          "english": "white",
+          "emoji": "⚪",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "שָׁחֹר",
+          "translit": "shachor",
+          "english": "black",
+          "emoji": "⚫",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "חוּם",
+          "translit": "chum",
+          "english": "brown",
+          "emoji": "🟤",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "אָפֹר",
+          "translit": "afor",
+          "english": "gray",
+          "emoji": "🩶",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "זָהוּב",
+          "translit": "zahuv",
+          "english": "golden",
+          "emoji": "✨",
+          "category": "Colors"
+        },
+        {
+          "hebrew": "שֶׁמֶשׁ",
+          "translit": "shemesh",
+          "english": "sun",
+          "emoji": "☀️",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "גֶּשֶׁם",
+          "translit": "geshem",
+          "english": "rain",
+          "emoji": "🌧️",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "עָנָן",
+          "translit": "anan",
+          "english": "cloud",
+          "emoji": "☁️",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "רוּחַ",
+          "translit": "ruach",
+          "english": "wind",
+          "emoji": "💨",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "שֶׁלֶג",
+          "translit": "sheleg",
+          "english": "snow",
+          "emoji": "❄️",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "חַם",
+          "translit": "cham",
+          "english": "hot",
+          "emoji": "🔥",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "קַר",
+          "translit": "kar",
+          "english": "cold",
+          "emoji": "🥶",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "נָעִים",
+          "translit": "na'im",
+          "english": "pleasant / mild",
+          "emoji": "😊",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "סוּפָה",
+          "translit": "sufa",
+          "english": "storm",
+          "emoji": "⛈️",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "קֶשֶׁת",
+          "translit": "keshet",
+          "english": "rainbow",
+          "emoji": "🌈",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "עֲרָפֶל",
+          "translit": "arafel",
+          "english": "fog",
+          "emoji": "🌫️",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "לַחוּת",
+          "translit": "lachut",
+          "english": "humidity",
+          "emoji": "💦",
+          "category": "Weather"
+        },
+        {
+          "hebrew": "בַּיִת",
+          "translit": "bayit",
+          "english": "house",
+          "emoji": "🏠",
+          "category": "Home"
+        },
+        {
+          "hebrew": "דֶּלֶת",
+          "translit": "delet",
+          "english": "door",
+          "emoji": "🚪",
+          "category": "Home"
+        },
+        {
+          "hebrew": "חַלּוֹן",
+          "translit": "chalon",
+          "english": "window",
+          "emoji": "🪟",
+          "category": "Home"
+        },
+        {
+          "hebrew": "שֻׁלְחָן",
+          "translit": "shulchan",
+          "english": "table",
+          "emoji": "🍽️",
+          "category": "Home"
+        },
+        {
+          "hebrew": "כִּסֵּא",
+          "translit": "kise",
+          "english": "chair",
+          "emoji": "🪑",
+          "category": "Home"
+        },
+        {
+          "hebrew": "מִטָּה",
+          "translit": "mita",
+          "english": "bed",
+          "emoji": "🛏️",
+          "category": "Home"
+        },
+        {
+          "hebrew": "מִטְבָּח",
+          "translit": "mitbach",
+          "english": "kitchen",
+          "emoji": "🍳",
+          "category": "Home"
+        },
+        {
+          "hebrew": "שֵׁרוּתִים",
+          "translit": "sherutim",
+          "english": "bathroom",
+          "emoji": "🚽",
+          "category": "Home"
+        },
+        {
+          "hebrew": "מִקְלַחַת",
+          "translit": "miklachat",
+          "english": "shower",
+          "emoji": "🚿",
+          "category": "Home"
+        },
+        {
+          "hebrew": "סַפָּה",
+          "translit": "sapa",
+          "english": "couch",
+          "emoji": "🛋️",
+          "category": "Home"
+        },
+        {
+          "hebrew": "מַנְעוּל",
+          "translit": "man'ul",
+          "english": "lock",
+          "emoji": "🔒",
+          "category": "Home"
+        },
+        {
+          "hebrew": "מַפְתֵּחַ",
+          "translit": "mafteach",
+          "english": "key",
+          "emoji": "🔑",
+          "category": "Home"
+        },
+        {
+          "hebrew": "חָצֵר",
+          "translit": "chatzer",
+          "english": "yard / courtyard",
+          "emoji": "🌳",
+          "category": "Home"
+        },
+        {
+          "hebrew": "גִּנָּה",
+          "translit": "gina",
+          "english": "garden",
+          "emoji": "🌷",
+          "category": "Home"
+        },
+        {
+          "hebrew": "תְּמוּנָה",
+          "translit": "tmuna",
+          "english": "picture",
+          "emoji": "🖼️",
+          "category": "Home"
+        },
+        {
+          "hebrew": "שָׁעוֹן",
+          "translit": "sha'on",
+          "english": "clock",
+          "emoji": "🕐",
+          "category": "Home"
+        },
+        {
+          "hebrew": "בֵּית סֵפֶר",
+          "translit": "beit sefer",
+          "english": "school",
+          "emoji": "🏫",
+          "category": "School"
+        },
+        {
+          "hebrew": "מוֹרֶה",
+          "translit": "more",
+          "english": "teacher (male)",
+          "emoji": "👨‍🏫",
+          "category": "School"
+        },
+        {
+          "hebrew": "מוֹרָה",
+          "translit": "mora",
+          "english": "teacher (female)",
+          "emoji": "👩‍🏫",
+          "category": "School"
+        },
+        {
+          "hebrew": "תַּלְמִיד",
+          "translit": "talmid",
+          "english": "student (male)",
+          "emoji": "🧑‍🎓",
+          "category": "School"
+        },
+        {
+          "hebrew": "תַּלְמִידָה",
+          "translit": "talmida",
+          "english": "student (female)",
+          "emoji": "👩‍🎓",
+          "category": "School"
+        },
+        {
+          "hebrew": "סֵפֶר",
+          "translit": "sefer",
+          "english": "book",
+          "emoji": "📖",
+          "category": "School"
+        },
+        {
+          "hebrew": "מַחְבֶּרֶת",
+          "translit": "machberet",
+          "english": "notebook",
+          "emoji": "📓",
+          "category": "School"
+        },
+        {
+          "hebrew": "עֵט",
+          "translit": "et",
+          "english": "pen",
+          "emoji": "🖊️",
+          "category": "School"
+        },
+        {
+          "hebrew": "עִפָּרוֹן",
+          "translit": "iparon",
+          "english": "pencil",
+          "emoji": "✏️",
+          "category": "School"
+        },
+        {
+          "hebrew": "תִּיק",
+          "translit": "tik",
+          "english": "backpack",
+          "emoji": "🎒",
+          "category": "School"
+        },
+        {
+          "hebrew": "כִּתָּה",
+          "translit": "kita",
+          "english": "classroom",
+          "emoji": "📚",
+          "category": "School"
+        },
+        {
+          "hebrew": "לוּחַ",
+          "translit": "luach",
+          "english": "board",
+          "emoji": "📋",
+          "category": "School"
+        },
+        {
+          "hebrew": "שִׁעוּר",
+          "translit": "shi'ur",
+          "english": "lesson",
+          "emoji": "📝",
+          "category": "School"
+        },
+        {
+          "hebrew": "מִבְחָן",
+          "translit": "mivchan",
+          "english": "test / exam",
+          "emoji": "✍️",
+          "category": "School"
+        },
+        {
+          "hebrew": "רֹאשׁ",
+          "translit": "rosh",
+          "english": "head",
+          "emoji": "🗿",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "עַיִן",
+          "translit": "ayin",
+          "english": "eye",
+          "emoji": "👁️",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "אֹזֶן",
+          "translit": "ozen",
+          "english": "ear",
+          "emoji": "👂",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "אַף",
+          "translit": "af",
+          "english": "nose",
+          "emoji": "👃",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "פֶּה",
+          "translit": "pe",
+          "english": "mouth",
+          "emoji": "👄",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "יָד",
+          "translit": "yad",
+          "english": "hand",
+          "emoji": "✋",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "רֶגֶל",
+          "translit": "regel",
+          "english": "foot / leg",
+          "emoji": "🦶",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "בֶּרֶךְ",
+          "translit": "berech",
+          "english": "knee",
+          "emoji": "🦵",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "בֶּטֶן",
+          "translit": "beten",
+          "english": "belly",
+          "emoji": "🫃",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "לֵב",
+          "translit": "lev",
+          "english": "heart",
+          "emoji": "❤️",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "שֵׁן",
+          "translit": "shen",
+          "english": "tooth",
+          "emoji": "🦷",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "שֵׂעָר",
+          "translit": "se'ar",
+          "english": "hair",
+          "emoji": "💇",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "כָּתֵף",
+          "translit": "katef",
+          "english": "shoulder",
+          "emoji": "🤷",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "גַּב",
+          "translit": "gav",
+          "english": "back",
+          "emoji": "🔙",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "אֶצְבַּע",
+          "translit": "etsba",
+          "english": "finger",
+          "emoji": "☝️",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "צַוָּאר",
+          "translit": "tsavar",
+          "english": "neck",
+          "emoji": "🦒",
+          "category": "Body Parts"
+        },
+        {
+          "hebrew": "בֶּגֶד",
+          "translit": "beged",
+          "english": "clothes",
+          "emoji": "🧺",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "חֻלְצָה",
+          "translit": "chultsa",
+          "english": "shirt",
+          "emoji": "👕",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "מִכְנָסַיִם",
+          "translit": "michnasayim",
+          "english": "pants",
+          "emoji": "👖",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "שִׂמְלָה",
+          "translit": "simla",
+          "english": "dress",
+          "emoji": "👗",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "נַעֲלַיִם",
+          "translit": "na'alayim",
+          "english": "shoes",
+          "emoji": "👟",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "גֶּרֶב",
+          "translit": "gerev",
+          "english": "sock",
+          "emoji": "🧦",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "כּוֹבַע",
+          "translit": "kova",
+          "english": "hat",
+          "emoji": "🎩",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "מְעִיל",
+          "translit": "me'il",
+          "english": "coat",
+          "emoji": "🧥",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "חֲגוֹרָה",
+          "translit": "chagora",
+          "english": "belt",
+          "emoji": "🪢",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "מִשְׁקָפַיִם",
+          "translit": "mishkafayim",
+          "english": "glasses",
+          "emoji": "👓",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "שְׁעוֹן יָד",
+          "translit": "sha'on yad",
+          "english": "wristwatch",
+          "emoji": "⌚",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "תִּיק יָד",
+          "translit": "tik yad",
+          "english": "handbag",
+          "emoji": "👜",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "צָעִיף",
+          "translit": "tsa'if",
+          "english": "scarf",
+          "emoji": "🧣",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "כְּפָפוֹת",
+          "translit": "kfafot",
+          "english": "gloves",
+          "emoji": "🧤",
+          "category": "Clothing"
+        },
+        {
+          "hebrew": "עֵץ",
+          "translit": "ets",
+          "english": "tree",
+          "emoji": "🌳",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "פֶּרַח",
+          "translit": "perach",
+          "english": "flower",
+          "emoji": "🌸",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "דֶּשֶׁא",
+          "translit": "deshe",
+          "english": "grass",
+          "emoji": "🌱",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "הַר",
+          "translit": "har",
+          "english": "mountain",
+          "emoji": "⛰️",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "יָם",
+          "translit": "yam",
+          "english": "sea",
+          "emoji": "🌊",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "נָהָר",
+          "translit": "nahar",
+          "english": "river",
+          "emoji": "🏞️",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "אֲגַם",
+          "translit": "agam",
+          "english": "lake",
+          "emoji": "💧",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "מִדְבָּר",
+          "translit": "midbar",
+          "english": "desert",
+          "emoji": "🏜️",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "יַעַר",
+          "translit": "ya'ar",
+          "english": "forest",
+          "emoji": "🌲",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "חוֹף",
+          "translit": "chof",
+          "english": "beach",
+          "emoji": "🏖️",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "שָׁמַיִם",
+          "translit": "shamayim",
+          "english": "sky",
+          "emoji": "🌌",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "כּוֹכָב",
+          "translit": "kochav",
+          "english": "star",
+          "emoji": "⭐",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "לְבָנָה",
+          "translit": "levana",
+          "english": "moon",
+          "emoji": "🌙",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "אֶבֶן",
+          "translit": "even",
+          "english": "stone",
+          "emoji": "🪨",
+          "category": "Nature"
+        },
+        {
+          "hebrew": "יוֹם רִאשׁוֹן",
+          "translit": "yom rishon",
+          "english": "Sunday",
+          "emoji": "📅",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "יוֹם שֵׁנִי",
+          "translit": "yom sheni",
+          "english": "Monday",
+          "emoji": "📅",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "יוֹם שְׁלִישִׁי",
+          "translit": "yom shlishi",
+          "english": "Tuesday",
+          "emoji": "📅",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "יוֹם רְבִיעִי",
+          "translit": "yom revi'i",
+          "english": "Wednesday",
+          "emoji": "📅",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "יוֹם חֲמִישִׁי",
+          "translit": "yom chamishi",
+          "english": "Thursday",
+          "emoji": "📅",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "יוֹם שִׁישִׁי",
+          "translit": "yom shishi",
+          "english": "Friday",
+          "emoji": "📅",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "שַׁבָּת",
+          "translit": "shabbat",
+          "english": "Saturday",
+          "emoji": "🕯️",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "הַיּוֹם",
+          "translit": "hayom",
+          "english": "today",
+          "emoji": "📍",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "מָחָר",
+          "translit": "machar",
+          "english": "tomorrow",
+          "emoji": "⏭️",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "אֶתְמוֹל",
+          "translit": "etmol",
+          "english": "yesterday",
+          "emoji": "⏮️",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "שָׁבוּעַ",
+          "translit": "shavua",
+          "english": "week",
+          "emoji": "🗓️",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "חֹדֶשׁ",
+          "translit": "chodesh",
+          "english": "month",
+          "emoji": "📆",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "שָׁנָה",
+          "translit": "shana",
+          "english": "year",
+          "emoji": "🔄",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "עוֹנָה",
+          "translit": "ona",
+          "english": "season",
+          "emoji": "🍂",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "קַיִץ",
+          "translit": "kayits",
+          "english": "summer",
+          "emoji": "🌴",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "חֹרֶף",
+          "translit": "choref",
+          "english": "winter",
+          "emoji": "⛄",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "אָבִיב",
+          "translit": "aviv",
+          "english": "spring",
+          "emoji": "🌷",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "סְתָיו",
+          "translit": "stav",
+          "english": "autumn",
+          "emoji": "🍁",
+          "category": "Time & Seasons"
+        },
+        {
+          "hebrew": "מְכוֹנִית",
+          "translit": "mechonit",
+          "english": "car",
+          "emoji": "🚗",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "אוֹטוֹבּוּס",
+          "translit": "otobus",
+          "english": "bus",
+          "emoji": "🚌",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "רַכֶּבֶת",
+          "translit": "rakevet",
+          "english": "train",
+          "emoji": "🚆",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "מָטוֹס",
+          "translit": "matos",
+          "english": "airplane",
+          "emoji": "✈️",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "אֳנִיָּה",
+          "translit": "oniya",
+          "english": "ship",
+          "emoji": "🚢",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "אוֹפַנַּיִם",
+          "translit": "ofanayim",
+          "english": "bicycle",
+          "emoji": "🚲",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "מוֹנִית",
+          "translit": "monit",
+          "english": "taxi",
+          "emoji": "🚕",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "רַמְזוֹר",
+          "translit": "ramzor",
+          "english": "traffic light",
+          "emoji": "🚦",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "כְּבִישׁ",
+          "translit": "kvish",
+          "english": "road",
+          "emoji": "🛣️",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "תַּחֲנָה",
+          "translit": "tachana",
+          "english": "station",
+          "emoji": "🚉",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "כַּרְטִיס",
+          "translit": "kartis",
+          "english": "ticket",
+          "emoji": "🎫",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "נָהָג",
+          "translit": "nahag",
+          "english": "driver",
+          "emoji": "🧑‍✈️",
+          "category": "Transportation"
+        },
+        {
+          "hebrew": "רוֹפֵא",
+          "translit": "rofe",
+          "english": "doctor (male)",
+          "emoji": "👨‍⚕️",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "רוֹפְאָה",
+          "translit": "rofa",
+          "english": "doctor (female)",
+          "emoji": "👩‍⚕️",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "שׁוֹטֵר",
+          "translit": "shoter",
+          "english": "police officer",
+          "emoji": "👮",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "כַּבַּאי",
+          "translit": "kabai",
+          "english": "firefighter",
+          "emoji": "👨‍🚒",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "טַבָּח",
+          "translit": "tabach",
+          "english": "chef",
+          "emoji": "👨‍🍳",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "אַדְרִיכָל",
+          "translit": "adrichal",
+          "english": "architect",
+          "emoji": "📐",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "עוֹרֵךְ דִּין",
+          "translit": "orech din",
+          "english": "lawyer",
+          "emoji": "⚖️",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "חַקְלַאי",
+          "translit": "chaklai",
+          "english": "farmer",
+          "emoji": "🌾",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "אַמָּן",
+          "translit": "aman",
+          "english": "artist",
+          "emoji": "🎨",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "זַמָּר",
+          "translit": "zamar",
+          "english": "singer",
+          "emoji": "🎤",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "סַפָּר",
+          "translit": "sapar",
+          "english": "barber",
+          "emoji": "✂️",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "נַגָּר",
+          "translit": "nagar",
+          "english": "carpenter",
+          "emoji": "🔨",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "טַיָּס",
+          "translit": "tayas",
+          "english": "pilot",
+          "emoji": "🛫",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "עִתּוֹנַאי",
+          "translit": "itonai",
+          "english": "journalist",
+          "emoji": "📰",
+          "category": "Occupations"
+        },
+        {
+          "hebrew": "כַּדּוּרֶגֶל",
+          "translit": "kaduregel",
+          "english": "soccer",
+          "emoji": "⚽",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "כַּדּוּרְסַל",
+          "translit": "kadursal",
+          "english": "basketball",
+          "emoji": "🏀",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "שְׂחִיָּה",
+          "translit": "schiya",
+          "english": "swimming",
+          "emoji": "🏊",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "רִיצָה",
+          "translit": "ritsa",
+          "english": "running",
+          "emoji": "🏃",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "טֶנִיס",
+          "translit": "tenis",
+          "english": "tennis",
+          "emoji": "🎾",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "יוֹגָה",
+          "translit": "yoga",
+          "english": "yoga",
+          "emoji": "🧘",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "רִקּוּד",
+          "translit": "rikud",
+          "english": "dancing",
+          "emoji": "💃",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "צִיּוּר",
+          "translit": "tsiyur",
+          "english": "drawing / painting",
+          "emoji": "🎨",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "מוּסִיקָה",
+          "translit": "musika",
+          "english": "music",
+          "emoji": "🎵",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "קְרִיאָה",
+          "translit": "kri'a",
+          "english": "reading",
+          "emoji": "📚",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "בִּשּׁוּל",
+          "translit": "bishul",
+          "english": "cooking",
+          "emoji": "🍳",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "שַׂחְמָט",
+          "translit": "sachmat",
+          "english": "chess",
+          "emoji": "♟️",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "טִיּוּל",
+          "translit": "tiyul",
+          "english": "hiking / trip",
+          "emoji": "🥾",
+          "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "מִשְׂחָק",
+          "translit": "miskhak",
+          "english": "game",
+          "emoji": "🎮",
+          "category": "Sports & Hobbies"
+        }
+      ],
+      "expressions": [
+        {
+          "hebrew": "מַה נִּשְׁמָע?",
+          "translit": "ma nishma?",
+          "english": "what's up?",
+          "emoji": "😎",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "מַה קוֹרֶה?",
+          "translit": "ma kore?",
+          "english": "what's happening?",
+          "emoji": "🤙",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "הַכֹּל טוֹב",
+          "translit": "hakol tov",
+          "english": "all good",
+          "emoji": "👍",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "מָה הַשָּׁעָה?",
+          "translit": "ma hasha'a?",
+          "english": "what time is it?",
+          "emoji": "⏰",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "נָעִים מְאוֹד",
+          "translit": "na'im me'od",
+          "english": "nice to meet you",
+          "emoji": "🤝",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "אֵיפֹה אַתָּה גָּר?",
+          "translit": "eifo ata gar?",
+          "english": "where do you live?",
+          "emoji": "🏠",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "מָה אַתָּה עוֹשֶׂה?",
+          "translit": "ma ata ose?",
+          "english": "what do you do (for a living)?",
+          "emoji": "💼",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "אֵיזֶה יוֹם הַיּוֹם?",
+          "translit": "eize yom hayom?",
+          "english": "what day is it today?",
+          "emoji": "📅",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "מָה זֶה חָדָשׁ?",
+          "translit": "ma ze chadash?",
+          "english": "what's new?",
+          "emoji": "🆕",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "אֵיךְ קוֹרְאִים לְךָ?",
+          "translit": "eich korim lecha?",
+          "english": "what's your name?",
+          "emoji": "🙋",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "אֲנִי מִ...",
+          "translit": "ani mi...",
+          "english": "I'm from...",
+          "emoji": "🌍",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "נָעִים לְהַכִּיר",
+          "translit": "na'im lehakir",
+          "english": "nice to meet you (alt.)",
+          "emoji": "🤗",
+          "category": "Small Talk"
+        },
+        {
+          "hebrew": "סַבָּבָה",
+          "translit": "sababa",
+          "english": "cool / awesome",
+          "emoji": "😎",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "יַאלְלָה",
+          "translit": "yalla",
+          "english": "let's go! / come on!",
+          "emoji": "🏃",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "בַּלַאגָן",
+          "translit": "balagan",
+          "english": "a total mess / chaos",
+          "emoji": "🌪️",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "חֲבָל עַל הַזְּמַן",
+          "translit": "chaval al hazman",
+          "english": "amazing (lit. 'shame on the time')",
+          "emoji": "🤩",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "אֵין מַצָּב",
+          "translit": "ein matzav",
+          "english": "no way!",
+          "emoji": "🙅",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "אַחְלָה",
+          "translit": "achla",
+          "english": "great / awesome",
+          "emoji": "😄",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "סְתָם",
+          "translit": "stam",
+          "english": "just kidding / just because",
+          "emoji": "🤷",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "תַּכְלֶס",
+          "translit": "tachles",
+          "english": "seriously / bottom line",
+          "emoji": "💯",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "וָלָה?",
+          "translit": "vala?",
+          "english": "really?!",
+          "emoji": "😲",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "מָה הָעִנְיָנִים?",
+          "translit": "ma ha'inyanim?",
+          "english": "what's up? (alt.)",
+          "emoji": "😎",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "עַל הַפָּנִים",
+          "translit": "al hapanim",
+          "english": "awful / terrible",
+          "emoji": "😖",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "פַּח",
+          "translit": "pach",
+          "english": "lame / a bummer",
+          "emoji": "😒",
+          "category": "Slang"
+        },
+        {
+          "hebrew": "סְלִיחָה",
+          "translit": "slicha",
+          "english": "excuse me / sorry",
+          "emoji": "🙇",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "אֲנִי לֹא מֵבִין",
+          "translit": "ani lo mevin",
+          "english": "I don't understand",
+          "emoji": "🤷",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "כַּמָּה זֶה עוֹלֶה?",
+          "translit": "kama ze ole?",
+          "english": "how much does it cost?",
+          "emoji": "💰",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "אֵיפֹה הַשֵּׁרוּתִים?",
+          "translit": "eifo hasherutim?",
+          "english": "where's the bathroom?",
+          "emoji": "🚻",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "אֲנִי רָעֵב",
+          "translit": "ani ra'ev",
+          "english": "I'm hungry",
+          "emoji": "😋",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "אֲנִי צָמֵא",
+          "translit": "ani tsame",
+          "english": "I'm thirsty",
+          "emoji": "🥤",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "אֲנִי אָבוּד",
+          "translit": "ani avud",
+          "english": "I'm lost",
+          "emoji": "🧭",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "תַּעֲזֹר לִי, בְּבַקָּשָׁה",
+          "translit": "ta'azor li, bevakasha",
+          "english": "help me, please",
+          "emoji": "🆘",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "אֵיפֹה זֶה?",
+          "translit": "eifo ze?",
+          "english": "where is it?",
+          "emoji": "📍",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "אֲנִי צָרִיךְ רוֹפֵא",
+          "translit": "ani tsarich rofe",
+          "english": "I need a doctor",
+          "emoji": "🏥",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "אֶפְשָׁר לְשַׁלֵּם בְּכַרְטִיס?",
+          "translit": "efshar leshalem bekartis?",
+          "english": "can I pay by card?",
+          "emoji": "💳",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "אֵיךְ מַגִּיעִים לְ...?",
+          "translit": "eich magi'im le...?",
+          "english": "how do I get to...?",
+          "emoji": "🗺️",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "אֲנִי לֹא יוֹדֵעַ",
+          "translit": "ani lo yode'a",
+          "english": "I don't know",
+          "emoji": "🤔",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "תּוּכַל לַעֲזֹר לִי?",
+          "translit": "tuchal la'azor li?",
+          "english": "can you help me?",
+          "emoji": "🙏",
+          "category": "Survival"
+        },
+        {
+          "hebrew": "מַזָּל טוֹב",
+          "translit": "mazal tov",
+          "english": "congratulations!",
+          "emoji": "🎊",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "לְחַיִּים",
+          "translit": "lechaim",
+          "english": "cheers! (to life!)",
+          "emoji": "🥂",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "בְּתֵאָבוֹן",
+          "translit": "bete'avon",
+          "english": "bon appétit",
+          "emoji": "🍽️",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "בְּהַצְלָחָה",
+          "translit": "behatzlacha",
+          "english": "good luck!",
+          "emoji": "🍀",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "כׇּל הַכָּבוֹד",
+          "translit": "kol hakavod",
+          "english": "well done!",
+          "emoji": "👏",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "חַג שָׂמֵחַ",
+          "translit": "chag same'ach",
+          "english": "happy holiday",
+          "emoji": "🎉",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "יוֹם הֻלֶּדֶת שָׂמֵחַ",
+          "translit": "yom huledet same'ach",
+          "english": "happy birthday",
+          "emoji": "🎂",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "שָׁנָה טוֹבָה",
+          "translit": "shana tova",
+          "english": "happy new year",
+          "emoji": "🍎",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "בְּרָכוֹת",
+          "translit": "brachot",
+          "english": "congratulations / blessings",
+          "emoji": "💐",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "תִּזְכּוּ לְשָׁנִים רַבּוֹת",
+          "translit": "tizku leshanim rabot",
+          "english": "many happy returns",
+          "emoji": "🎈",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "מְאַחֵל לְךָ הַכֹּל טוֹב",
+          "translit": "me'achel lecha hakol tov",
+          "english": "wishing you all the best",
+          "emoji": "🌟",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "כֵּיף חַיִּים",
+          "translit": "keif chayim",
+          "english": "what a life! (living the dream)",
+          "emoji": "😎",
+          "category": "Celebrate"
+        },
+        {
+          "hebrew": "אֲנִי שָׂמֵחַ",
+          "translit": "ani same'ach",
+          "english": "I'm happy",
+          "emoji": "😊",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "אֲנִי עָצוּב",
+          "translit": "ani atsuv",
+          "english": "I'm sad",
+          "emoji": "😢",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "אֲנִי כּוֹעֵס",
+          "translit": "ani ko'es",
+          "english": "I'm angry",
+          "emoji": "😠",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "אֲנִי מְפַחֵד",
+          "translit": "ani mefached",
+          "english": "I'm scared",
+          "emoji": "😨",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "אֲנִי עָיֵף",
+          "translit": "ani ayef",
+          "english": "I'm tired",
+          "emoji": "😴",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "אֲנִי מִתְרַגֵּשׁ",
+          "translit": "ani mitrageish",
+          "english": "I'm excited",
+          "emoji": "🤩",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "וואוּ!",
+          "translit": "wow!",
+          "english": "wow!",
+          "emoji": "😮",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "כַּמָּה יָפֶה!",
+          "translit": "kama yafe!",
+          "english": "how beautiful!",
+          "emoji": "🤩",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "זֶה מַצְחִיק",
+          "translit": "ze matschik",
+          "english": "that's funny",
+          "emoji": "😂",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "אֵיזֶה כֵּיף!",
+          "translit": "eize keif!",
+          "english": "how fun!",
+          "emoji": "🥳",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "חֲבָל",
+          "translit": "chaval",
+          "english": "too bad / what a shame",
+          "emoji": "😔",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "מַדְהִים!",
+          "translit": "madhim!",
+          "english": "amazing!",
+          "emoji": "🤯",
+          "category": "Emotions & Reactions"
+        },
+        {
+          "hebrew": "יָמִינָה",
+          "translit": "yamina",
+          "english": "to the right",
+          "emoji": "➡️",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "שְׂמֹאלָה",
+          "translit": "smola",
+          "english": "to the left",
+          "emoji": "⬅️",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "יָשָׁר",
+          "translit": "yashar",
+          "english": "straight ahead",
+          "emoji": "⬆️",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "קָרוֹב",
+          "translit": "karov",
+          "english": "close / near",
+          "emoji": "📍",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "רָחוֹק",
+          "translit": "rachok",
+          "english": "far",
+          "emoji": "🛰️",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "כָּאן",
+          "translit": "kan",
+          "english": "here",
+          "emoji": "👇",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "שָׁם",
+          "translit": "sham",
+          "english": "there",
+          "emoji": "👉",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "עִיר",
+          "translit": "ir",
+          "english": "city",
+          "emoji": "🏙️",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "רְחוֹב",
+          "translit": "rechov",
+          "english": "street",
+          "emoji": "🛣️",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "כִּכָּר",
+          "translit": "kikar",
+          "english": "square / plaza",
+          "emoji": "🏛️",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "תַּחֲנַת רַכֶּבֶת",
+          "translit": "tachanat rakevet",
+          "english": "train station",
+          "emoji": "🚉",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "מָלוֹן",
+          "translit": "malon",
+          "english": "hotel",
+          "emoji": "🏨",
+          "category": "Directions & Places"
+        },
+        {
+          "hebrew": "חֲנוּת",
+          "translit": "chanut",
+          "english": "store / shop",
+          "emoji": "🏪",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "שׁוּק",
+          "translit": "shuk",
+          "english": "market / bazaar",
+          "emoji": "🧺",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "כֶּסֶף",
+          "translit": "kesef",
+          "english": "money",
+          "emoji": "💵",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "מְחִיר",
+          "translit": "mechir",
+          "english": "price",
+          "emoji": "🏷️",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "זוֹל",
+          "translit": "zol",
+          "english": "cheap",
+          "emoji": "💸",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "יָקָר",
+          "translit": "yakar",
+          "english": "expensive",
+          "emoji": "💎",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "הַנָּחָה",
+          "translit": "hanacha",
+          "english": "discount",
+          "emoji": "🔖",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "לִקְנוֹת",
+          "translit": "liknot",
+          "english": "to buy",
+          "emoji": "🛍️",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "לִמְכֹּר",
+          "translit": "limkor",
+          "english": "to sell",
+          "emoji": "💰",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "קַבָּלָה",
+          "translit": "kabala",
+          "english": "receipt",
+          "emoji": "🧾",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "עֹדֶף",
+          "translit": "odef",
+          "english": "change (money)",
+          "emoji": "🪙",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "אֶפְשָׁר לְהַחְלִיף?",
+          "translit": "efshar lehachlif?",
+          "english": "can I exchange it?",
+          "emoji": "🔄",
+          "category": "Shopping & Market"
+        },
+        {
+          "hebrew": "טֶלֶפוֹן",
+          "translit": "telefon",
+          "english": "phone",
+          "emoji": "📱",
+          "category": "Phone & Tech"
+        },
+        {
+          "hebrew": "מַחְשֵׁב",
+          "translit": "machshev",
+          "english": "computer",
+          "emoji": "💻",
+          "category": "Phone & Tech"
+        },
+        {
+          "hebrew": "אִינְטֶרְנֶט",
+          "translit": "internet",
+          "english": "internet",
+          "emoji": "🌐",
+          "category": "Phone & Tech"
+        },
+        {
+          "hebrew": "סִסְמָה",
+          "translit": "sisma",
+          "english": "password",
+          "emoji": "🔐",
+          "category": "Phone & Tech"
+        },
+        {
+          "hebrew": "לְהִתְקַשֵּׁר",
+          "translit": "lehitkasher",
+          "english": "to call",
+          "emoji": "📞",
+          "category": "Phone & Tech"
+        },
+        {
+          "hebrew": "לִשְׁלֹחַ הוֹדָעָה",
+          "translit": "lishloach hoda'a",
+          "english": "to send a message",
+          "emoji": "💬",
+          "category": "Phone & Tech"
+        },
+        {
+          "hebrew": "סוֹלְלָה",
+          "translit": "solela",
+          "english": "battery",
+          "emoji": "🔋",
+          "category": "Phone & Tech"
+        },
+        {
+          "hebrew": "אֵין קֶשֶׁר",
+          "translit": "ein kesher",
+          "english": "no signal",
+          "emoji": "📵",
+          "category": "Phone & Tech"
+        },
+        {
+          "hebrew": "לְהוֹרִיד אַפְּלִיקַצְיָה",
+          "translit": "lehorid aplikatsya",
+          "english": "to download an app",
+          "emoji": "📲",
+          "category": "Phone & Tech"
+        },
+        {
+          "hebrew": "טָעוּן",
+          "translit": "ta'un",
+          "english": "charged (battery)",
+          "emoji": "🔌",
+          "category": "Phone & Tech"
+        },
+        {
+          "hebrew": "אַתָּה מַצְלִיחַ",
+          "translit": "ata matsliach",
+          "english": "you're doing great",
+          "emoji": "👏",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "יָפֶה מְאוֹד",
+          "translit": "yafe me'od",
+          "english": "very nice / well done",
+          "emoji": "👍",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "אֵין עָלֶיךָ",
+          "translit": "ein alecha",
+          "english": "you're the best",
+          "emoji": "🙌",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "אַתָּה חָכָם",
+          "translit": "ata chacham",
+          "english": "you're smart",
+          "emoji": "🧠",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "תַּמְשִׁיךְ כָּכָה",
+          "translit": "tamshich kacha",
+          "english": "keep it up",
+          "emoji": "💪",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "אֲנִי גֵּאֶה בְּךָ",
+          "translit": "ani ge'e becha",
+          "english": "I'm proud of you",
+          "emoji": "🥹",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "אַתָּה יָכוֹל!",
+          "translit": "ata yachol!",
+          "english": "you can do it!",
+          "emoji": "💪",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "זֶה יִהְיֶה בְּסֵדֶר",
+          "translit": "ze yihye beseder",
+          "english": "it'll be okay",
+          "emoji": "🤍",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "כֹּחַ!",
+          "translit": "koach!",
+          "english": "more power to you!",
+          "emoji": "💥",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "יְפֵהפֶה",
+          "translit": "yefefe",
+          "english": "gorgeous / beautiful",
+          "emoji": "😍",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "נִפְלָא!",
+          "translit": "nifla!",
+          "english": "wonderful!",
+          "emoji": "✨",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "מְעֻלֶּה!",
+          "translit": "meule!",
+          "english": "excellent!",
+          "emoji": "🌟",
+          "category": "Compliments & Encouragement"
+        },
+        {
+          "hebrew": "יֵשׁ לִי בְּעָיָה",
+          "translit": "yesh li be'aya",
+          "english": "I have a problem",
+          "emoji": "⚠️",
+          "category": "Complaints & Problems"
+        },
+        {
+          "hebrew": "זֶה לֹא עוֹבֵד",
+          "translit": "ze lo oved",
+          "english": "it's not working",
+          "emoji": "🔧",
+          "category": "Complaints & Problems"
+        },
+        {
+          "hebrew": "כָּאַב לִי הָרֹאשׁ",
+          "translit": "ka'av li harosh",
+          "english": "I have a headache",
+          "emoji": "🤕",
+          "category": "Complaints & Problems"
+        },
+        {
+          "hebrew": "אֲנִי לֹא מַרְגִּישׁ טוֹב",
+          "translit": "ani lo margish tov",
+          "english": "I don't feel well",
+          "emoji": "🤒",
+          "category": "Complaints & Problems"
+        },
+        {
+          "hebrew": "זֶה יָקָר מִדַּי",
+          "translit": "ze yakar midai",
+          "english": "it's too expensive",
+          "emoji": "💸",
+          "category": "Complaints & Problems"
+        },
+        {
+          "hebrew": "אֵין לִי זְמַן",
+          "translit": "ein li zman",
+          "english": "I don't have time",
+          "emoji": "⏰",
+          "category": "Complaints & Problems"
+        },
+        {
+          "hebrew": "אִבַּדְתִּי",
+          "translit": "avadti",
+          "english": "I lost (something)",
+          "emoji": "😩",
+          "category": "Complaints & Problems"
+        },
+        {
+          "hebrew": "זֶה מְעַצְבֵּן",
+          "translit": "ze me'atsben",
+          "english": "it's annoying",
+          "emoji": "😤",
+          "category": "Complaints & Problems"
+        },
+        {
+          "hebrew": "תַּקָּלָה",
+          "translit": "tkala",
+          "english": "malfunction / glitch",
+          "emoji": "⚙️",
+          "category": "Complaints & Problems"
+        },
+        {
+          "hebrew": "אֵין לִי כֹּחַ",
+          "translit": "ein li koach",
+          "english": "I have no energy",
+          "emoji": "😩",
+          "category": "Complaints & Problems"
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "words": [
+        {
+          "hebrew": "the money you're paid each month for your job",
+          "translit": "",
+          "english": "salary",
+          "emoji": "💵",
+          "category": "Work & Money",
+          "gloss": "monthly pay",
+          "example": "My salary is paid on the first of the month."
+        },
+        {
+          "hebrew": "all the money you receive",
+          "translit": "",
+          "english": "income",
+          "emoji": "💰",
+          "category": "Work & Money",
+          "gloss": "money coming in",
+          "example": "She has an extra income from renting a room."
+        },
+        {
+          "hebrew": "a meeting where you answer questions to get a job",
+          "translit": "",
+          "english": "job interview",
+          "emoji": "🤵",
+          "category": "Work & Money",
+          "gloss": "job meeting",
+          "example": "I have a job interview tomorrow morning."
+        },
+        {
+          "hebrew": "the last moment to finish something",
+          "translit": "",
+          "english": "deadline",
+          "emoji": "⏳",
+          "category": "Work & Money",
+          "gloss": "time limit",
+          "example": "The deadline for the report is Friday."
+        },
+        {
+          "hebrew": "to discuss something to reach an agreement",
+          "translit": "",
+          "english": "to negotiate",
+          "emoji": "🤝",
+          "category": "Work & Money",
+          "gloss": "discuss a deal",
+          "example": "We negotiated a better price for the car."
+        },
+        {
+          "hebrew": "moving up to a higher position at work",
+          "translit": "",
+          "english": "promotion",
+          "emoji": "📈",
+          "category": "Work & Money",
+          "gloss": "higher position",
+          "example": "He got a promotion after two years."
+        },
+        {
+          "hebrew": "knowledge and skill you get from doing things",
+          "translit": "",
+          "english": "experience",
+          "emoji": "🧠",
+          "category": "Work & Money",
+          "gloss": "practical knowledge",
+          "example": "She has five years of experience in sales."
+        },
+        {
+          "hebrew": "a chance to do something good",
+          "translit": "",
+          "english": "opportunity",
+          "emoji": "🚪",
+          "category": "Work & Money",
+          "gloss": "a chance",
+          "example": "This job is a great opportunity for you."
+        },
+        {
+          "hebrew": "sad because something didn't happen as you hoped",
+          "translit": "",
+          "english": "disappointed",
+          "emoji": "😞",
+          "category": "Feelings",
+          "gloss": "sadly let down",
+          "example": "I was disappointed by the film's ending."
+        },
+        {
+          "hebrew": "uncomfortable and ashamed in front of others",
+          "translit": "",
+          "english": "embarrassed",
+          "emoji": "😳",
+          "category": "Feelings",
+          "gloss": "ashamed",
+          "example": "He was embarrassed when he forgot her name."
+        },
+        {
+          "hebrew": "feeling good about something you or others did",
+          "translit": "",
+          "english": "proud",
+          "emoji": "🦚",
+          "category": "Feelings",
+          "gloss": "pleased with",
+          "example": "She's proud of her exam results."
+        },
+        {
+          "hebrew": "unhappy because someone has what you want",
+          "translit": "",
+          "english": "jealous",
+          "emoji": "😒",
+          "category": "Feelings",
+          "gloss": "envious",
+          "example": "Don't be jealous of your friend's new phone."
+        },
+        {
+          "hebrew": "worried and nervous about what may happen",
+          "translit": "",
+          "english": "anxious",
+          "emoji": "😰",
+          "category": "Feelings",
+          "gloss": "worried",
+          "example": "I always feel anxious before exams."
+        },
+        {
+          "hebrew": "sure about yourself and your abilities",
+          "translit": "",
+          "english": "confident",
+          "emoji": "😤",
+          "category": "Feelings",
+          "gloss": "self-assured",
+          "example": "Try to look confident at the interview."
+        },
+        {
+          "hebrew": "wanting to know and learn new things",
+          "translit": "",
+          "english": "curious",
+          "emoji": "🧐",
+          "category": "Feelings",
+          "gloss": "eager to know",
+          "example": "Children are curious about everything."
+        },
+        {
+          "hebrew": "feeling thankful for something",
+          "translit": "",
+          "english": "grateful",
+          "emoji": "🙏",
+          "category": "Feelings",
+          "gloss": "thankful",
+          "example": "I'm really grateful for your help."
+        },
+        {
+          "hebrew": "a person who lives next to you",
+          "translit": "",
+          "english": "neighbour",
+          "emoji": "🏘️",
+          "category": "People & Society",
+          "gloss": "lives next door",
+          "example": "Our neighbour waters our plants in summer."
+        },
+        {
+          "hebrew": "a person you don't know",
+          "translit": "",
+          "english": "stranger",
+          "emoji": "🕵️",
+          "category": "People & Society",
+          "gloss": "unknown person",
+          "example": "Don't open the door to strangers."
+        },
+        {
+          "hebrew": "a large group of people in one place",
+          "translit": "",
+          "english": "crowd",
+          "emoji": "👥",
+          "category": "People & Society",
+          "gloss": "many people",
+          "example": "A crowd gathered in the main square."
+        },
+        {
+          "hebrew": "the group of people who run a country",
+          "translit": "",
+          "english": "government",
+          "emoji": "🏛️",
+          "category": "People & Society",
+          "gloss": "country's leaders",
+          "example": "The government announced new taxes."
+        },
+        {
+          "hebrew": "all the people in a country, seen as one group",
+          "translit": "",
+          "english": "society",
+          "emoji": "🌐",
+          "category": "People & Society",
+          "gloss": "people as a group",
+          "example": "Sport plays a big role in our society."
+        },
+        {
+          "hebrew": "people who share a place or an interest",
+          "translit": "",
+          "english": "community",
+          "emoji": "🤗",
+          "category": "People & Society",
+          "gloss": "local group",
+          "example": "Our community organises a street market."
+        },
+        {
+          "hebrew": "all the people born around the same time",
+          "translit": "",
+          "english": "generation",
+          "emoji": "👶👴",
+          "category": "People & Society",
+          "gloss": "same-age people",
+          "example": "My generation grew up with the internet."
+        },
+        {
+          "hebrew": "an official member of a country",
+          "translit": "",
+          "english": "citizen",
+          "emoji": "🪪",
+          "category": "People & Society",
+          "gloss": "country member",
+          "example": "She became a citizen last year."
+        },
+        {
+          "hebrew": "travelling from one place to another",
+          "translit": "",
+          "english": "journey",
+          "emoji": "🗺️",
+          "category": "Travel & City",
+          "gloss": "a long trip",
+          "example": "The journey to the coast took six hours."
+        },
+        {
+          "hebrew": "the place you are travelling to",
+          "translit": "",
+          "english": "destination",
+          "emoji": "📍",
+          "category": "Travel & City",
+          "gloss": "end point",
+          "example": "We reached our destination at noon."
+        },
+        {
+          "hebrew": "the bags you take when you travel",
+          "translit": "",
+          "english": "luggage",
+          "emoji": "🧳",
+          "category": "Travel & City",
+          "gloss": "travel bags",
+          "example": "My luggage was too heavy for the flight."
+        },
+        {
+          "hebrew": "when something happens later than planned",
+          "translit": "",
+          "english": "delay",
+          "emoji": "🕰️",
+          "category": "Travel & City",
+          "gloss": "running late",
+          "example": "There's a two-hour delay on all trains."
+        },
+        {
+          "hebrew": "a place where two roads cross",
+          "translit": "",
+          "english": "crossroads",
+          "emoji": "🚦",
+          "category": "Travel & City",
+          "gloss": "roads meet",
+          "example": "Turn left at the crossroads."
+        },
+        {
+          "hebrew": "the path beside the road where you walk",
+          "translit": "",
+          "english": "pavement",
+          "emoji": "🚶",
+          "category": "Travel & City",
+          "gloss": "walking path",
+          "example": "Keep the bikes off the pavement, please."
+        },
+        {
+          "hebrew": "a list of the times buses or trains leave",
+          "translit": "",
+          "english": "timetable",
+          "emoji": "🗓️",
+          "category": "Travel & City",
+          "gloss": "schedule",
+          "example": "Check the timetable before you leave."
+        },
+        {
+          "hebrew": "in or to a foreign country",
+          "translit": "",
+          "english": "abroad",
+          "emoji": "✈️",
+          "category": "Travel & City",
+          "gloss": "foreign country",
+          "example": "She's been working abroad since May."
+        },
+        {
+          "hebrew": "to succeed in reaching a goal",
+          "translit": "",
+          "english": "to achieve",
+          "emoji": "🏅",
+          "category": "Action Verbs",
+          "gloss": "reach a goal",
+          "example": "He achieved everything he planned this year."
+        },
+        {
+          "hebrew": "to stay away from something",
+          "translit": "",
+          "english": "to avoid",
+          "emoji": "🙈",
+          "category": "Action Verbs",
+          "gloss": "keep away from",
+          "example": "Try to avoid sugary drinks."
+        },
+        {
+          "hebrew": "to make something better",
+          "translit": "",
+          "english": "to improve",
+          "emoji": "📶",
+          "category": "Action Verbs",
+          "gloss": "make better",
+          "example": "Daily practice improves your English fast."
+        },
+        {
+          "hebrew": "to make someone agree by giving reasons",
+          "translit": "",
+          "english": "to persuade",
+          "emoji": "🗣️",
+          "category": "Action Verbs",
+          "gloss": "convince",
+          "example": "She persuaded me to join the gym."
+        },
+        {
+          "hebrew": "to move something to a later time",
+          "translit": "",
+          "english": "to postpone",
+          "emoji": "📅",
+          "category": "Action Verbs",
+          "gloss": "delay it",
+          "example": "They postponed the match because of rain."
+        },
+        {
+          "hebrew": "to say no to something",
+          "translit": "",
+          "english": "to refuse",
+          "emoji": "🙅",
+          "category": "Action Verbs",
+          "gloss": "say no",
+          "example": "He refused the offer politely."
+        },
+        {
+          "hebrew": "to get the result you wanted",
+          "translit": "",
+          "english": "to succeed",
+          "emoji": "🏆",
+          "category": "Action Verbs",
+          "gloss": "do well",
+          "example": "You'll succeed if you keep trying."
+        },
+        {
+          "hebrew": "to tell someone that something is good and worth trying",
+          "translit": "",
+          "english": "to recommend",
+          "emoji": "👍",
+          "category": "Action Verbs",
+          "gloss": "suggest it",
+          "example": "I recommend the fish — it's excellent here."
+        }
+      ],
+      "idioms": [
+        {
+          "hebrew": "to make people feel relaxed when they first meet",
+          "translit": "",
+          "english": "break the ice",
+          "emoji": "🧊",
+          "category": "Daily Life",
+          "gloss": "start relaxed",
+          "example": "A funny story is a good way to break the ice."
+        },
+        {
+          "hebrew": "something very easy to do",
+          "translit": "",
+          "english": "a piece of cake",
+          "emoji": "🍰",
+          "category": "Daily Life",
+          "gloss": "very easy",
+          "example": "The test was a piece of cake."
+        },
+        {
+          "hebrew": "to go to bed",
+          "translit": "",
+          "english": "hit the sack",
+          "emoji": "😴",
+          "category": "Daily Life",
+          "gloss": "go to sleep",
+          "example": "I'm exhausted — time to hit the sack."
+        },
+        {
+          "hebrew": "feeling slightly ill",
+          "translit": "",
+          "english": "under the weather",
+          "emoji": "🤒",
+          "category": "Daily Life",
+          "gloss": "a bit ill",
+          "example": "I'm staying home — I feel under the weather."
+        },
+        {
+          "hebrew": "very rarely",
+          "translit": "",
+          "english": "once in a blue moon",
+          "emoji": "🌚",
+          "category": "Daily Life",
+          "gloss": "very rarely",
+          "example": "We eat out once in a blue moon."
+        },
+        {
+          "hebrew": "to be very expensive",
+          "translit": "",
+          "english": "cost an arm and a leg",
+          "emoji": "💸",
+          "category": "Daily Life",
+          "gloss": "very expensive",
+          "example": "That new phone costs an arm and a leg."
+        },
+        {
+          "hebrew": "said in very few words",
+          "translit": "",
+          "english": "in a nutshell",
+          "emoji": "🥜",
+          "category": "Daily Life",
+          "gloss": "in short",
+          "example": "In a nutshell, we need more time."
+        },
+        {
+          "hebrew": "to solve two problems with one action",
+          "translit": "",
+          "english": "kill two birds with one stone",
+          "emoji": "🪨",
+          "category": "Daily Life",
+          "gloss": "two at once",
+          "example": "Cycling to work kills two birds with one stone."
+        },
+        {
+          "hebrew": "unable to decide between options",
+          "translit": "",
+          "english": "on the fence",
+          "emoji": "🤔",
+          "category": "People & Feelings",
+          "gloss": "undecided",
+          "example": "I'm still on the fence about the new job."
+        },
+        {
+          "hebrew": "extremely happy",
+          "translit": "",
+          "english": "over the moon",
+          "emoji": "🌝",
+          "category": "People & Feelings",
+          "gloss": "very happy",
+          "example": "She was over the moon about the news."
+        },
+        {
+          "hebrew": "suddenly too nervous to do something planned",
+          "translit": "",
+          "english": "get cold feet",
+          "emoji": "🥶",
+          "category": "People & Feelings",
+          "gloss": "lose courage",
+          "example": "He got cold feet just before the speech."
+        },
+        {
+          "hebrew": "to agree with someone",
+          "translit": "",
+          "english": "see eye to eye",
+          "emoji": "👀",
+          "category": "People & Feelings",
+          "gloss": "agree",
+          "example": "We don't always see eye to eye, but we're friends."
+        },
+        {
+          "hebrew": "to help someone",
+          "translit": "",
+          "english": "give someone a hand",
+          "emoji": "🤝",
+          "category": "People & Feelings",
+          "gloss": "help out",
+          "example": "Can you give me a hand with these boxes?"
+        },
+        {
+          "hebrew": "to annoy someone a lot",
+          "translit": "",
+          "english": "get on someone's nerves",
+          "emoji": "😤",
+          "category": "People & Feelings",
+          "gloss": "annoy",
+          "example": "That noise is getting on my nerves."
+        },
+        {
+          "hebrew": "to watch someone or something carefully",
+          "translit": "",
+          "english": "keep an eye on",
+          "emoji": "🧿",
+          "category": "People & Feelings",
+          "gloss": "watch over",
+          "example": "Keep an eye on my bag for a minute, please."
+        },
+        {
+          "hebrew": "said when the person you were talking about appears",
+          "translit": "",
+          "english": "speak of the devil",
+          "emoji": "😈",
+          "category": "People & Feelings",
+          "gloss": "they appeared!",
+          "example": "Speak of the devil — we were just talking about you!"
+        }
+      ]
+    },
+    {
+      "id": "french",
+      "words": [
+        {
+          "hebrew": "qui parle avec aisance et convainc",
+          "translit": "",
+          "english": "éloquent",
+          "emoji": "🎤",
+          "category": "Nuance & Style",
+          "gloss": "eloquent",
+          "example": "Son discours était si éloquent que tout le monde a applaudi."
+        },
+        {
+          "hebrew": "sans importance ni danger",
+          "translit": "",
+          "english": "anodin",
+          "emoji": "🤍",
+          "category": "Nuance & Style",
+          "gloss": "trivial, harmless",
+          "example": "Ne t'inquiète pas, c'était une remarque anodine."
+        },
+        {
+          "hebrew": "bizarre et un peu absurde",
+          "translit": "",
+          "english": "saugrenu",
+          "emoji": "🤪",
+          "category": "Nuance & Style",
+          "gloss": "absurd, odd",
+          "example": "Quelle idée saugrenue de partir à minuit !"
+        },
+        {
+          "hebrew": "ni vraiment positif ni vraiment négatif",
+          "translit": "",
+          "english": "mitigé",
+          "emoji": "⚖️",
+          "category": "Nuance & Style",
+          "gloss": "mixed (feelings)",
+          "example": "Les critiques du film sont mitigées."
+        },
+        {
+          "hebrew": "pas clair, pas précis",
+          "translit": "",
+          "english": "flou",
+          "emoji": "🌫️",
+          "category": "Nuance & Style",
+          "gloss": "vague, blurry",
+          "example": "Ses explications restent floues."
+        },
+        {
+          "hebrew": "délicieux, d'une grande finesse",
+          "translit": "",
+          "english": "exquis",
+          "emoji": "🍮",
+          "category": "Nuance & Style",
+          "gloss": "exquisite",
+          "example": "Ce dessert est absolument exquis."
+        },
+        {
+          "hebrew": "triste et sans énergie",
+          "translit": "",
+          "english": "morne",
+          "emoji": "🌧️",
+          "category": "Nuance & Style",
+          "gloss": "gloomy, dreary",
+          "example": "Un dimanche morne et pluvieux."
+        },
+        {
+          "hebrew": "trop décontracté, presque impoli",
+          "translit": "",
+          "english": "désinvolte",
+          "emoji": "😏",
+          "category": "Nuance & Style",
+          "gloss": "offhand, casual",
+          "example": "Il a répondu d'un ton désinvolte."
+        },
+        {
+          "hebrew": "se promener sans but précis",
+          "translit": "",
+          "english": "flâner",
+          "emoji": "🚶",
+          "category": "Handy Verbs",
+          "gloss": "to stroll",
+          "example": "On a flâné le long de la Seine."
+        },
+        {
+          "hebrew": "trouver quelque chose de rare",
+          "translit": "",
+          "english": "dénicher",
+          "emoji": "🔎",
+          "category": "Handy Verbs",
+          "gloss": "to unearth, find",
+          "example": "J'ai déniché ce livre dans une brocante."
+        },
+        {
+          "hebrew": "éviter habilement",
+          "translit": "",
+          "english": "esquiver",
+          "emoji": "🥷",
+          "category": "Handy Verbs",
+          "gloss": "to dodge",
+          "example": "Il a esquivé la question du journaliste."
+        },
+        {
+          "hebrew": "se plaindre constamment",
+          "translit": "",
+          "english": "râler",
+          "emoji": "😾",
+          "category": "Handy Verbs",
+          "gloss": "to grumble",
+          "example": "Il râle dès qu'il pleut."
+        },
+        {
+          "hebrew": "trouver une solution tout seul",
+          "translit": "",
+          "english": "se débrouiller",
+          "emoji": "🧩",
+          "category": "Handy Verbs",
+          "gloss": "to manage, get by",
+          "example": "Elle se débrouille très bien en français."
+        },
+        {
+          "hebrew": "améliorer les derniers détails",
+          "translit": "",
+          "english": "peaufiner",
+          "emoji": "✨",
+          "category": "Handy Verbs",
+          "gloss": "to polish, refine",
+          "example": "Je peaufine ma présentation ce soir."
+        },
+        {
+          "hebrew": "faire vite et mal",
+          "translit": "",
+          "english": "bâcler",
+          "emoji": "🫠",
+          "category": "Handy Verbs",
+          "gloss": "to botch",
+          "example": "Ne bâcle pas tes devoirs !"
+        },
+        {
+          "hebrew": "commencer quelque chose",
+          "translit": "",
+          "english": "entamer",
+          "emoji": "🚀",
+          "category": "Handy Verbs",
+          "gloss": "to start, begin",
+          "example": "Nous avons entamé les négociations."
+        },
+        {
+          "hebrew": "heureux et bien dans sa vie",
+          "translit": "",
+          "english": "épanoui",
+          "emoji": "🌸",
+          "category": "Moods & Feelings",
+          "gloss": "fulfilled",
+          "example": "Elle semble très épanouie dans son nouveau travail."
+        },
+        {
+          "hebrew": "légèrement énervé",
+          "translit": "",
+          "english": "agacé",
+          "emoji": "😤",
+          "category": "Moods & Feelings",
+          "gloss": "annoyed",
+          "example": "Je suis agacé par ce bruit constant."
+        },
+        {
+          "hebrew": "très ému, profondément choqué",
+          "translit": "",
+          "english": "bouleversé",
+          "emoji": "💔",
+          "category": "Moods & Feelings",
+          "gloss": "deeply shaken",
+          "example": "Il était bouleversé par la nouvelle."
+        },
+        {
+          "hebrew": "qui ne fait pas facilement confiance",
+          "translit": "",
+          "english": "méfiant",
+          "emoji": "🕵️",
+          "category": "Moods & Feelings",
+          "gloss": "distrustful",
+          "example": "Sois méfiant avec les offres trop belles."
+        },
+        {
+          "hebrew": "rempli d'admiration",
+          "translit": "",
+          "english": "émerveillé",
+          "emoji": "🎆",
+          "category": "Moods & Feelings",
+          "gloss": "amazed, in wonder",
+          "example": "Les enfants étaient émerveillés par le feu d'artifice."
+        },
+        {
+          "hebrew": "très triste, sans force",
+          "translit": "",
+          "english": "abattu",
+          "emoji": "😞",
+          "category": "Moods & Feelings",
+          "gloss": "dejected",
+          "example": "Après l'échec, il était complètement abattu."
+        },
+        {
+          "hebrew": "libéré d'une inquiétude",
+          "translit": "",
+          "english": "soulagé",
+          "emoji": "😮‍💨",
+          "category": "Moods & Feelings",
+          "gloss": "relieved",
+          "example": "Je suis soulagé que tout se soit bien passé."
+        },
+        {
+          "hebrew": "honteux après une bêtise",
+          "translit": "",
+          "english": "penaud",
+          "emoji": "😳",
+          "category": "Moods & Feelings",
+          "gloss": "sheepish",
+          "example": "Il est revenu tout penaud s'excuser."
+        },
+        {
+          "hebrew": "ce qu'on peut gagner ou perdre",
+          "translit": "",
+          "english": "l'enjeu",
+          "emoji": "🎲",
+          "category": "Work & Projects",
+          "gloss": "what's at stake",
+          "example": "L'enjeu de cette réunion est énorme."
+        },
+        {
+          "hebrew": "série d'actions pour obtenir quelque chose",
+          "translit": "",
+          "english": "la démarche",
+          "emoji": "📋",
+          "category": "Work & Projects",
+          "gloss": "process, step",
+          "example": "Les démarches administratives prennent du temps."
+        },
+        {
+          "hebrew": "première version encore incomplète",
+          "translit": "",
+          "english": "l'ébauche",
+          "emoji": "✏️",
+          "category": "Work & Projects",
+          "gloss": "draft, outline",
+          "example": "Voici une ébauche de mon projet."
+        },
+        {
+          "hebrew": "ce qui manque, un vide dans les connaissances",
+          "translit": "",
+          "english": "la lacune",
+          "emoji": "🕳️",
+          "category": "Work & Projects",
+          "gloss": "gap, shortcoming",
+          "example": "J'ai des lacunes en grammaire."
+        },
+        {
+          "hebrew": "capable de faire plusieurs choses différentes",
+          "translit": "",
+          "english": "polyvalent",
+          "emoji": "🧰",
+          "category": "Work & Projects",
+          "gloss": "versatile",
+          "example": "On cherche quelqu'un de polyvalent."
+        },
+        {
+          "hebrew": "très expérimenté",
+          "translit": "",
+          "english": "chevronné",
+          "emoji": "🎖️",
+          "category": "Work & Projects",
+          "gloss": "seasoned",
+          "example": "Un pilote chevronné a repris les commandes."
+        },
+        {
+          "hebrew": "possibilité d'emploi ou de carrière",
+          "translit": "",
+          "english": "le débouché",
+          "emoji": "🚪",
+          "category": "Work & Projects",
+          "gloss": "career prospect",
+          "example": "Cette filière offre de nombreux débouchés."
+        },
+        {
+          "hebrew": "avantage qui aide à réussir",
+          "translit": "",
+          "english": "l'atout",
+          "emoji": "🃏",
+          "category": "Work & Projects",
+          "gloss": "asset, advantage",
+          "example": "Parler trois langues est un vrai atout."
+        },
+        {
+          "hebrew": "tâche pénible et obligatoire",
+          "translit": "",
+          "english": "la corvée",
+          "emoji": "🧽",
+          "category": "Everyday Life",
+          "gloss": "chore, drag",
+          "example": "Faire la vaisselle, quelle corvée !"
+        },
+        {
+          "hebrew": "chance inattendue, très bonne affaire",
+          "translit": "",
+          "english": "l'aubaine",
+          "emoji": "🍀",
+          "category": "Everyday Life",
+          "gloss": "windfall, godsend",
+          "example": "Ce vol à trente euros, quelle aubaine !"
+        },
+        {
+          "hebrew": "événement qu'on n'attendait pas",
+          "translit": "",
+          "english": "l'imprévu",
+          "emoji": "🎢",
+          "category": "Everyday Life",
+          "gloss": "the unexpected",
+          "example": "Un imprévu m'empêche de venir."
+        },
+        {
+          "hebrew": "utilisation inutile de quelque chose",
+          "translit": "",
+          "english": "le gaspillage",
+          "emoji": "🗑️",
+          "category": "Everyday Life",
+          "gloss": "waste",
+          "example": "Quel gaspillage de jeter tout ce pain !"
+        },
+        {
+          "hebrew": "circulation bloquée",
+          "translit": "",
+          "english": "l'embouteillage",
+          "emoji": "🚗",
+          "category": "Everyday Life",
+          "gloss": "traffic jam",
+          "example": "Je suis coincé dans les embouteillages."
+        },
+        {
+          "hebrew": "sensation agréable de changement de décor",
+          "translit": "",
+          "english": "le dépaysement",
+          "emoji": "🗾",
+          "category": "Everyday Life",
+          "gloss": "change of scenery",
+          "example": "Ce voyage au Japon, quel dépaysement !"
+        },
+        {
+          "hebrew": "ce qui arrive tous les jours, la routine",
+          "translit": "",
+          "english": "le quotidien",
+          "emoji": "📅",
+          "category": "Everyday Life",
+          "gloss": "daily routine",
+          "example": "La lecture fait partie de mon quotidien."
+        },
+        {
+          "hebrew": "petits travaux manuels à la maison",
+          "translit": "",
+          "english": "le bricolage",
+          "emoji": "🔨",
+          "category": "Everyday Life",
+          "gloss": "DIY",
+          "example": "Il passe son dimanche à faire du bricolage."
+        }
+      ],
+      "idioms": [
+        {
+          "hebrew": "ne pas venir à un rendez-vous",
+          "translit": "",
+          "english": "poser un lapin",
+          "emoji": "🐰",
+          "category": "Everyday Idioms",
+          "gloss": "stand someone up",
+          "example": "Il m'a posé un lapin hier soir !"
+        },
+        {
+          "hebrew": "se sentir triste et déprimé",
+          "translit": "",
+          "english": "avoir le cafard",
+          "emoji": "🪳",
+          "category": "Everyday Idioms",
+          "gloss": "feel blue",
+          "example": "Depuis son départ, j'ai le cafard."
+        },
+        {
+          "hebrew": "être très cher",
+          "translit": "",
+          "english": "coûter les yeux de la tête",
+          "emoji": "👀",
+          "category": "Everyday Idioms",
+          "gloss": "cost a fortune",
+          "example": "Cette veste coûte les yeux de la tête."
+        },
+        {
+          "hebrew": "dormir tard le matin",
+          "translit": "",
+          "english": "faire la grasse matinée",
+          "emoji": "🛌",
+          "category": "Everyday Idioms",
+          "gloss": "sleep in",
+          "example": "Le dimanche, je fais la grasse matinée."
+        },
+        {
+          "hebrew": "ne pas avoir envie de faire un effort",
+          "translit": "",
+          "english": "avoir la flemme",
+          "emoji": "🦥",
+          "category": "Everyday Idioms",
+          "gloss": "feel lazy",
+          "example": "J'ai la flemme de cuisiner ce soir."
+        },
+        {
+          "hebrew": "ne pas dormir de la nuit",
+          "translit": "",
+          "english": "passer une nuit blanche",
+          "emoji": "🌙",
+          "category": "Everyday Idioms",
+          "gloss": "pull an all-nighter",
+          "example": "J'ai passé une nuit blanche avant l'examen."
+        },
+        {
+          "hebrew": "être distrait, rêveur",
+          "translit": "",
+          "english": "être dans la lune",
+          "emoji": "🌝",
+          "category": "Everyday Idioms",
+          "gloss": "daydream",
+          "example": "Tu m'écoutes ? Tu es dans la lune !"
+        },
+        {
+          "hebrew": "abandonner parce qu'on ne trouve pas la réponse",
+          "translit": "",
+          "english": "donner sa langue au chat",
+          "emoji": "🐱",
+          "category": "Everyday Idioms",
+          "gloss": "give up guessing",
+          "example": "Je ne sais pas… je donne ma langue au chat !"
+        },
+        {
+          "hebrew": "tomber amoureux immédiatement",
+          "translit": "",
+          "english": "avoir un coup de foudre",
+          "emoji": "⚡",
+          "category": "Colorful Idioms",
+          "gloss": "love at first sight",
+          "example": "Entre eux, ça a été le coup de foudre."
+        },
+        {
+          "hebrew": "s'évanouir",
+          "translit": "",
+          "english": "tomber dans les pommes",
+          "emoji": "🍎",
+          "category": "Colorful Idioms",
+          "gloss": "faint",
+          "example": "Il fait si chaud qu'elle est tombée dans les pommes."
+        },
+        {
+          "hebrew": "donner son avis sans qu'on le demande",
+          "translit": "",
+          "english": "mettre son grain de sel",
+          "emoji": "🧂",
+          "category": "Colorful Idioms",
+          "gloss": "butt in",
+          "example": "Il faut toujours qu'il mette son grain de sel !"
+        },
+        {
+          "hebrew": "compliquer les choses simples",
+          "translit": "",
+          "english": "chercher midi à quatorze heures",
+          "emoji": "🕑",
+          "category": "Colorful Idioms",
+          "gloss": "overcomplicate",
+          "example": "Arrête de chercher midi à quatorze heures !"
+        },
+        {
+          "hebrew": "avoir des choses plus importantes à faire",
+          "translit": "",
+          "english": "avoir d'autres chats à fouetter",
+          "emoji": "🐈",
+          "category": "Colorful Idioms",
+          "gloss": "bigger fish to fry",
+          "example": "Je n'ai pas le temps, j'ai d'autres chats à fouetter."
+        },
+        {
+          "hebrew": "abandonner définitivement",
+          "translit": "",
+          "english": "jeter l'éponge",
+          "emoji": "🧽",
+          "category": "Colorful Idioms",
+          "gloss": "throw in the towel",
+          "example": "Après trois essais, il a jeté l'éponge."
+        },
+        {
+          "hebrew": "aborder maladroitement un sujet délicat",
+          "translit": "",
+          "english": "mettre les pieds dans le plat",
+          "emoji": "🍽️",
+          "category": "Colorful Idioms",
+          "gloss": "put your foot in it",
+          "example": "Il a mis les pieds dans le plat en parlant du divorce."
+        },
+        {
+          "hebrew": "être à fond, très motivé",
+          "translit": "",
+          "english": "être au taquet",
+          "emoji": "🚀",
+          "category": "Colorful Idioms",
+          "gloss": "full throttle",
+          "example": "Pour ce projet, toute l'équipe est au taquet."
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "key": "Greetings",
+      "emoji": "👋",
+      "label": "Greetings"
+    },
+    {
+      "key": "Food",
+      "emoji": "🍎",
+      "label": "Food"
+    },
+    {
+      "key": "Animals",
+      "emoji": "🐶",
+      "label": "Animals"
+    },
+    {
+      "key": "Numbers",
+      "emoji": "🔢",
+      "label": "Numbers"
+    },
+    {
+      "key": "Family",
+      "emoji": "👨‍👩‍👧‍👦",
+      "label": "Family"
+    },
+    {
+      "key": "Colors",
+      "emoji": "🎨",
+      "label": "Colors"
+    },
+    {
+      "key": "Weather",
+      "emoji": "⛅",
+      "label": "Weather"
+    },
+    {
+      "key": "Home",
+      "emoji": "🏠",
+      "label": "Home"
+    },
+    {
+      "key": "School",
+      "emoji": "🏫",
+      "label": "School"
+    },
+    {
+      "key": "Body Parts",
+      "emoji": "🖐️",
+      "label": "Body Parts"
+    },
+    {
+      "key": "Clothing",
+      "emoji": "👕",
+      "label": "Clothing"
+    },
+    {
+      "key": "Nature",
+      "emoji": "🌳",
+      "label": "Nature"
+    },
+    {
+      "key": "Time & Seasons",
+      "emoji": "📅",
+      "label": "Time & Seasons"
+    },
+    {
+      "key": "Transportation",
+      "emoji": "🚗",
+      "label": "Transportation"
+    },
+    {
+      "key": "Occupations",
+      "emoji": "👷",
+      "label": "Occupations"
+    },
+    {
+      "key": "Sports & Hobbies",
+      "emoji": "⚽",
+      "label": "Sports & Hobbies"
+    },
+    {
+      "key": "Small Talk",
+      "emoji": "💬",
+      "label": "Small Talk"
+    },
+    {
+      "key": "Slang",
+      "emoji": "🤙",
+      "label": "Slang"
+    },
+    {
+      "key": "Survival",
+      "emoji": "🧭",
+      "label": "Survival"
+    },
+    {
+      "key": "Celebrate",
+      "emoji": "🎉",
+      "label": "Celebrate"
+    },
+    {
+      "key": "Emotions & Reactions",
+      "emoji": "😊",
+      "label": "Emotions & Reactions"
+    },
+    {
+      "key": "Directions & Places",
+      "emoji": "🧭",
+      "label": "Directions & Places"
+    },
+    {
+      "key": "Shopping & Market",
+      "emoji": "🛍️",
+      "label": "Shopping & Market"
+    },
+    {
+      "key": "Phone & Tech",
+      "emoji": "📱",
+      "label": "Phone & Tech"
+    },
+    {
+      "key": "Compliments & Encouragement",
+      "emoji": "👏",
+      "label": "Compliments & Encouragement"
+    },
+    {
+      "key": "Complaints & Problems",
+      "emoji": "⚠️",
+      "label": "Complaints & Problems"
+    },
+    {
+      "key": "Work & Money",
+      "emoji": "💼",
+      "label": "Work & Money"
+    },
+    {
+      "key": "Feelings",
+      "emoji": "💛",
+      "label": "Feelings"
+    },
+    {
+      "key": "People & Society",
+      "emoji": "🏙️",
+      "label": "People & Society"
+    },
+    {
+      "key": "Travel & City",
+      "emoji": "✈️",
+      "label": "Travel & City"
+    },
+    {
+      "key": "Action Verbs",
+      "emoji": "⚡",
+      "label": "Action Verbs"
+    },
+    {
+      "key": "Daily Life",
+      "emoji": "🏡",
+      "label": "Daily Life"
+    },
+    {
+      "key": "People & Feelings",
+      "emoji": "🫂",
+      "label": "People & Feelings"
+    },
+    {
+      "key": "Nuance & Style",
+      "emoji": "🎨",
+      "label": "Nuance & Style"
+    },
+    {
+      "key": "Handy Verbs",
+      "emoji": "🛠️",
+      "label": "Handy Verbs"
+    },
+    {
+      "key": "Moods & Feelings",
+      "emoji": "🎭",
+      "label": "Moods & Feelings"
+    },
+    {
+      "key": "Work & Projects",
+      "emoji": "🗂️",
+      "label": "Work & Projects"
+    },
+    {
+      "key": "Everyday Life",
+      "emoji": "☕",
+      "label": "Everyday Life"
+    },
+    {
+      "key": "Everyday Idioms",
+      "emoji": "🐰",
+      "label": "Everyday Idioms"
+    },
+    {
+      "key": "Colorful Idioms",
+      "emoji": "🌈",
+      "label": "Colorful Idioms"
+    },
+    {
+      "key": "Actions & Events",
+      "emoji": "🎬",
+      "label": "Actions & Events"
+    },
+    {
+      "key": "Nature & Animals",
+      "emoji": "🌿",
+      "label": "Nature & Animals"
+    },
+    {
+      "key": "Objects & Technology",
+      "emoji": "🧰",
+      "label": "Objects & Technology"
+    },
+    {
+      "key": "Qualities & Change",
+      "emoji": "✨",
+      "label": "Qualities & Change"
+    },
+    {
+      "key": "Health & Body",
+      "emoji": "🫀",
+      "label": "Health & Body"
+    },
+    {
+      "key": "Ideas & Decisions",
+      "emoji": "💡",
+      "label": "Ideas & Decisions"
+    },
+    {
+      "key": "Language & Communication",
+      "emoji": "💬",
+      "label": "Language & Communication"
+    },
+    {
+      "key": "Feelings & Character",
+      "emoji": "💛",
+      "label": "Feelings & Character"
+    },
+    {
+      "key": "Food & Cooking",
+      "emoji": "🍲",
+      "label": "Food & Cooking"
+    },
+    {
+      "key": "Travel & Places",
+      "emoji": "🗺️",
+      "label": "Travel & Places"
+    },
+    {
+      "key": "People & Relationships",
+      "emoji": "🫂",
+      "label": "People & Relationships"
+    },
+    {
+      "key": "Science & Nature",
+      "emoji": "🔬",
+      "label": "Science & Nature"
+    },
+    {
+      "key": "Numbers & Measurement",
+      "emoji": "📏",
+      "label": "Numbers & Measurement"
+    },
+    {
+      "key": "Life & Wellbeing",
+      "emoji": "🌤️",
+      "label": "Life & Wellbeing"
+    },
+    {
+      "key": "Time & Planning",
+      "emoji": "🗓️",
+      "label": "Time & Planning"
+    },
+    {
+      "key": "Sport & Competition",
+      "emoji": "🏅",
+      "label": "Sport & Competition"
+    },
+    {
+      "key": "Everyday Actions",
+      "emoji": "🛠️",
+      "label": "Everyday Actions"
+    },
+    {
+      "key": "Movement & Travel",
+      "emoji": "🚲",
+      "label": "Movement & Travel"
+    },
+    {
+      "key": "Thinking & Senses",
+      "emoji": "👁️",
+      "label": "Thinking & Senses"
+    },
+    {
+      "key": "Descriptions & Opinions",
+      "emoji": "🎨",
+      "label": "Descriptions & Opinions"
+    },
+    {
+      "key": "Adverbs & Nuance",
+      "emoji": "🧭",
+      "label": "Adverbs & Nuance"
+    }
+  ]
+}
