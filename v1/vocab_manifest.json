@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 2,
   "updated": "2026-07-18",
   "courses": [
     {
@@ -1919,6 +1919,13 @@
           "english": "game",
           "emoji": "🎮",
           "category": "Sports & Hobbies"
+        },
+        {
+          "hebrew": "בְּדִיקָה",
+          "translit": "bedika",
+          "english": "test (verification word)",
+          "emoji": "🧪",
+          "category": "Live Test"
         }
       ],
       "expressions": [
@@ -4078,6 +4085,11 @@
       "key": "Adverbs & Nuance",
       "emoji": "🧭",
       "label": "Adverbs & Nuance"
+    },
+    {
+      "key": "Live Test",
+      "emoji": "🧪",
+      "label": "Live Test"
     }
   ]
 }
