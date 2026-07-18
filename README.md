@@ -34,7 +34,7 @@ working Quiz/Match/Cards/Letters screens automatically — no app code changes n
       "secondaryKind": "expressions", // "expressions" | "idioms" | omit for none
 
       "letters": [ { "glyph": "א", "name": "Alef", "sound": "...", "mnemonic": "...", "emoji": "🥷", "finalForm": null } ],
-      "words": [ { "hebrew": "שָׁלוֹם", "translit": "shalom", "english": "hello / peace", "emoji": "🕊️", "category": "Greetings" } ],
+      "words": [ { "hebrew": "שָׁלוֹם", "translit": "shalom", "english": "hello / peace", "emoji": "🕊️", "category": "Greetings", "meaningEs": "hola / paz" } ],
       "expressions": [ /* same shape as words */ ]
     },
     {
@@ -43,7 +43,7 @@ working Quiz/Match/Cards/Letters screens automatically — no app code changes n
       "tagline": "5,600 words and idioms — from everyday to advanced English",
       "taglineEs": "5.600 palabras y modismos — del inglés cotidiano al avanzado",
       "icon": "Aa", "speakLocale": "en-GB", "layout": "reversed", "secondaryKind": "idioms",
-      "words": [ { "hebrew": "definition text", "translit": "", "english": "target word", "emoji": "💵", "category": "Work & Money", "gloss": "short hint", "example": "example sentence" } ],
+      "words": [ { "hebrew": "definition text", "translit": "", "english": "target word", "emoji": "💵", "category": "Work & Money", "gloss": "short hint", "example": "example sentence", "meaningEs": "texto de la definición", "glossEs": "pista corta" } ],
       "idioms": [ /* same shape */ ]
     },
     {
@@ -74,6 +74,23 @@ working Quiz/Match/Cards/Letters screens automatically — no app code changes n
   in plain language, `gloss` is a short hint, `example` is a usage sentence. Quiz prompts with
   the definition, answers are the target words. Use this for any course teaching vocabulary
   *through* definitions rather than direct translation.
+
+### `meaningEs` / `glossEs`: localizing the answer/meaning side
+
+The app's interface language (English/Spanish, from the in-app picker or system default)
+should also apply to whichever side of a card/quiz-answer/match-tile is playing the "meaning"
+role — the word actually being learned (the `direct`-layout `hebrew` field, or the
+`reversed`-layout `english` field) never translates, since that's the point of the exercise.
+
+- `meaningEs`: Spanish version of whichever field is currently the meaning — `english` for
+  `direct`-layout courses, `hebrew` (the definition) for `reversed`-layout courses. Used in
+  Quiz answers/explanations and Match tiles.
+- `glossEs`: Spanish version of `gloss` (the short hint). Only used by Match tiles for
+  `reversed`-layout courses, which show the short `gloss` instead of the full definition to
+  fit tile space.
+
+Both are optional — a blank or missing value just falls back to the English/French text, so
+you can add translations incrementally without breaking anything.
 
 ### Adding a new course
 
