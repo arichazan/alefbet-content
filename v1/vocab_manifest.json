@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": 5,
+  "version": 3,
   "updated": "2026-07-18",
   "courses": [
     {
@@ -3128,15 +3128,6 @@
           "category": "Action Verbs",
           "gloss": "suggest it",
           "example": "I recommend the fish — it's excellent here."
-        },
-        {
-          "hebrew": "a temporary marker word for live-refresh verification",
-          "translit": "",
-          "english": "ZZZ Live Refresh Test",
-          "emoji": "🧪",
-          "category": "Work & Money",
-          "gloss": "test marker",
-          "example": "This is a ZZZ Live Refresh Test sentence."
         }
       ],
       "idioms": [
